@@ -4,6 +4,10 @@
 import 'isomorphic-fetch';
 import dotenv from 'dotenv';
 import cron from 'node-cron';
+import express from 'express';
+import compression from 'compression';
+import bodyParser from 'body-parser';
+import cors from 'cors';
 import getRandomGame from './getRandomGame';
 
 dotenv.config();
@@ -50,3 +54,29 @@ cron.schedule('30 13 * * *', () => {
     .catch(console.error);
 });
 console.log('scheduled...');
+
+const app = express();
+
+app.use(cors());
+app.use(compression());
+app.use(bodyParser.json());
+
+app.post('/random', (req, res) => {
+  const { text } = req.body;
+
+  console.log(text);
+  if (!text.match('#random')) return res.sendStatus(200);
+
+  const platform = getRandom(PLATFORMS);
+  console.log('sending random game from post', platform);
+  sendGame(platform)
+    .then(() => `did it, ${new Date().toLocaleString()}`)
+    .then(console.log)
+    .catch(console.error);
+
+  res.sendStatus(200);
+});
+
+app.listen(process.env.PORT || 9966, () => {
+  console.log('server running...');
+});
