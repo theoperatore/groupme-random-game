@@ -2,17 +2,26 @@
   "name": "groupme-random-game",
   "version": "1.0.0",
   "description": "Once a day, send a random game to the groupme chat",
-  "main": "server.js",
+  "main": "build/server.js",
   "repository": "https://github.com/theoperatore/groupme-random-game.git",
   "author": "Alex Petersen <theoperatore@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "babel src -d build",
+    "start": "forever -d -a -o out.log -e err.log start server.js",
+    "stop": "forever stop server.js",
+    "dev": "yarn build && node build/server.js",
+    "deploy": "yarn build && rsync -avz -e 'ssh' --progress ./build/* package.json yarn.lock .env root@104.131.28.154:~/groupme-random-game/",
+    "remote": "ssh root@104.131.28.154"
+  },
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "compression": "^1.7.0",
-    "cors": "^2.8.4",
     "dotenv": "^4.0.0",
-    "express": "^4.15.4",
     "forever": "^0.15.3",
-    "isomorphic-fetch": "^2.2.1"
+    "isomorphic-fetch": "^2.2.1",
+    "node-cron": "^1.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0"
   }
 }
