@@ -12,7 +12,8 @@
     "stop": "forever stop server.js",
     "dev": "yarn build && node build/server.js",
     "deploy": "yarn build && rsync -avz -e 'ssh' --progress ./build/* package.json yarn.lock .env root@104.131.28.154:~/groupme-random-game/",
-    "remote": "ssh root@104.131.28.154"
+    "remote": "ssh root@104.131.28.154",
+    "format": "prettier --single-quote true --trailing-comma es5 --write \"src/*.js\""
   },
   "dependencies": {
     "body-parser": "^1.17.2",
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
-    "babel-preset-env": "^1.6.0"
+    "babel-preset-env": "^1.6.0",
+    "prettier": "^1.5.3"
   }
 }

@@ -25,32 +25,46 @@ const PLATFORMS = [
   'Genesis',
 ];
 
-const formatDate = date => new Intl.DateTimeFormat('en', {
-  timeZone: 'UTC',
-  month: 'short',
-  year: 'numeric',
-  day: 'numeric',
-}).format(new Date(date));
+const formatDate = date =>
+  new Intl.DateTimeFormat('en', {
+    timeZone: 'UTC',
+    month: 'short',
+    year: 'numeric',
+    day: 'numeric',
+  }).format(new Date(date));
 
-const mapGameToPost = platform => ({ image, name, deck, description, original_release_date, site_detail_url }) => ({
-  text: `# ${name}\n# ${platform}\n# ${formatDate(original_release_date)}\n\n${deck}\n\n${site_detail_url}\n\n--GOTD`,
-  image: `${image.super_url || image.screen_url || image.medium_url || image.small_url || image.thumb_url || image.icon_url || image.tiny_url}`,
+const mapGameToPost = platform => ({
+  image,
+  name,
+  deck,
+  description,
+  original_release_date,
+  site_detail_url,
+}) => ({
+  text: `# ${name}\n# ${platform}\n# ${formatDate(
+    original_release_date
+  )}\n\n${deck}\n\n${site_detail_url}\n\n--GOTD`,
+  image: `${image.super_url ||
+    image.screen_url ||
+    image.medium_url ||
+    image.small_url ||
+    image.thumb_url ||
+    image.icon_url ||
+    image.tiny_url}`,
 });
 
 const postToGroupme = ({ text, image }) =>
   fetch(`https://api.groupme.com/v3/bots/post?token=${process.env.GM_TOKEN}`, {
     method: 'POST',
-    headers: new Headers()
-      .append('Content-Type', 'application/json'),
+    headers: new Headers().append('Content-Type', 'application/json'),
     body: JSON.stringify({
       bot_id: process.env.BOT_ID,
       text,
       picture_url: image,
-    })
+    }),
   });
 
-const getRandom = itms =>
-  itms[Math.floor(Math.random() * (itms.length - 1))];
+const getRandom = itms => itms[Math.floor(Math.random() * (itms.length - 1))];
 
 const sendGame = platform =>
   getRandomGame(process.env.GB_TOKEN, platform)
