@@ -71,16 +71,28 @@ const sendGame = platform =>
     .then(mapGameToPost(platform))
     .then(postToGroupme);
 
+const generateId = () => {
+  const str = 'abcdefghijklmnopqrstuvwxyz';
+  const time = Date.now();
+  return new Array(22)
+    .fill(1)
+    .map(() => str[Math.floor(Math.random() * str.length -1)])
+    .join('') + `${time}`;
+}
+
 // the server is 4 hours ahead of NYC time, so 5 hours ahead of
 // Central time. So make this go off at 1:30pm server time,
 // which should be somewhere around 8:30am central time.
 cron.schedule('30 13 * * *', () => {
   const platform = getRandom(PLATFORMS);
-  console.log('cron sending game', platform);
+  const id = generateId();
+  console.log(`[log] ${id} cron sending game`, platform);
   sendGame(platform)
-    .then(() => `did it, ${new Date().toLocaleString()}`)
+    .then(() => `[log] ${id}: did it ${new Date().toLocaleString()}`)
     .then(console.log)
-    .catch(console.error);
+    .catch(err => {
+      console.log(`[error] ${id}`, err);
+    });
 });
 console.log('scheduled...');
 
@@ -96,12 +108,14 @@ app.post('/random', (req, res) => {
   if (!text || !text.match('#random')) return res.sendStatus(200);
 
   const platform = getRandom(PLATFORMS);
-  console.log('sending random game from post', platform);
+  const id = generateId();
+  console.log(`[log] ${id} post sending random game`, platform);
   sendGame(platform)
-    .then(() => `did it, ${new Date().toLocaleString()}`)
+    .then(() => `[log] ${id}: did it ${new Date().toLocaleString()}`)
     .then(console.log)
-    .catch(console.error);
-
+    .catch(err => {
+      console.log(`[error] ${id}`, err);
+    });
   res.sendStatus(200);
 });
 
