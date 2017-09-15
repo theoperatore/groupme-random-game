@@ -9,6 +9,7 @@ import compression from 'compression';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import getRandomGame from './getRandomGame';
+import { searchCompendium } from './proxyCompendium';
 
 dotenv.config();
 
@@ -53,6 +54,11 @@ const mapGameToPost = platform => ({
     image.tiny_url}`,
 });
 
+const mapResultsToPost = text => ({
+  text,
+  image: null,
+});
+
 const postToGroupme = ({ text, image }) =>
   fetch(`https://api.groupme.com/v3/bots/post?token=${process.env.GM_TOKEN}`, {
     method: 'POST',
@@ -69,6 +75,11 @@ const getRandom = itms => itms[Math.floor(Math.random() * (itms.length - 1))];
 const sendGame = platform =>
   getRandomGame(process.env.GB_TOKEN, platform)
     .then(mapGameToPost(platform))
+    .then(postToGroupme);
+
+const sendCompendiumEntry = rawText =>
+  searchCompendium(rawText)
+    .then(mapResultsToPost)
     .then(postToGroupme);
 
 const generateId = () => {
@@ -105,17 +116,26 @@ app.use(bodyParser.json());
 app.post('/random', (req, res) => {
   const { text } = req.body;
 
-  if (!text || !text.match('#random')) return res.sendStatus(200);
-
-  const platform = getRandom(PLATFORMS);
   const id = generateId();
-  console.log(`[log] ${id} post sending random game`, platform);
-  sendGame(platform)
-    .then(() => `[log] ${id}: did it ${new Date().toLocaleString()}`)
-    .then(console.log)
-    .catch(err => {
-      console.log(`[error] ${id}`, err);
-    });
+  if (text.match('#dnd')) {
+    console.log(`[log] ${id} searching compendium:`, text);
+    sendCompendiumEntry(text)
+      .then(() => `[log] ${id}: did it ${new Date().toLocaleString()}`)
+      .then(console.log)
+      .catch(err => {
+        console.log(`[error] ${id}`, err);
+      });
+  } else if (text.match('#random')) {
+    const platform = getRandom(PLATFORMS);
+    console.log(`[log] ${id} post sending random game`, platform);
+    sendGame(platform)
+      .then(() => `[log] ${id}: did it ${new Date().toLocaleString()}`)
+      .then(console.log)
+      .catch(err => {
+        console.log(`[error] ${id}`, err);
+      });
+  }
+
   res.sendStatus(200);
 });
 
