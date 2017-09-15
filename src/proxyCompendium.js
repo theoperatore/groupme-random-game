@@ -22,8 +22,17 @@ export const searchCompendium = async rawText => {
   if (searchResponse.length === 0) return `No definitions matching: ${sanitized}`;
 
   const defResponse = await getDef(searchResponse[0].pagename);
+  const content = defResponse.content;
 
-  return defResponse.content
-    ? defResponse.content
-    : `No content defined for: ${sanitized}`;
+  let out = `No content defined for: ${sanitized}`;
+  if (content) {
+    if (content.length >= 500) {
+      out = `${content.substr(0, 500)}...\n\nhttps://app.roll20.net/compendium/dnd5e/${qs.escape(searchResponse[0].pagename)}`;
+    }
+    else {
+      out = content;
+    }
+  }
+
+  return out;
 }
