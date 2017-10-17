@@ -10,6 +10,7 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 import getRandomGame from './getRandomGame';
 import { searchCompendium } from './proxyCompendium';
+import { whoami } from './whoami';
 
 dotenv.config();
 
@@ -82,6 +83,11 @@ const sendCompendiumEntry = rawText =>
     .then(mapResultsToPost)
     .then(postToGroupme);
 
+const sendWhoami = () =>
+  whoami()
+    .then(mapResultsToPost)
+    .then(postToGroupme);
+
 const generateId = () => {
   const str = 'abcdefghijklmnopqrstuvwxyz';
   const time = Date.now();
@@ -117,23 +123,27 @@ app.post('/random', (req, res) => {
   const { text } = req.body;
 
   const id = generateId();
-  if (text.match('#dnd')) {
+  if (text.match('#whoami')) {
+    console.log(`[log] ${id} generating backstory...`);
+    sendWhoami()
+      .then(() => `[log] ${id}: did it ${new Date().toLocaleString()}`)
+      .then(console.log)
+      .catch(err => console.log(`[error] ${id}`, err));
+
+  } else if (text.match('#dnd')) {
     console.log(`[log] ${id} searching compendium:`, text);
     sendCompendiumEntry(text)
       .then(() => `[log] ${id}: did it ${new Date().toLocaleString()}`)
       .then(console.log)
-      .catch(err => {
-        console.log(`[error] ${id}`, err);
-      });
+      .catch(err => console.log(`[error] ${id}`, err));
+
   } else if (text.match('#random')) {
     const platform = getRandom(PLATFORMS);
     console.log(`[log] ${id} post sending random game`, platform);
     sendGame(platform)
       .then(() => `[log] ${id}: did it ${new Date().toLocaleString()}`)
       .then(console.log)
-      .catch(err => {
-        console.log(`[error] ${id}`, err);
-      });
+      .catch(err => console.log(`[error] ${id}`, err));
   }
 
   res.sendStatus(200);
