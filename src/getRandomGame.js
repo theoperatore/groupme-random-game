@@ -34,12 +34,13 @@ const findRandomGame = async (apiKey, platform = 9, gameMax = 1764) => {
   return response.results[0];
 };
 
-export default async (apiKey, platformName) => {
-  const platforms = await getAllPlatforms(apiKey);
-  const platform = platforms.find(plat => plat.name === platformName) || {
-    id: -1,
-  };
-  const maxGames = await findGameMaxForPlatform(apiKey, platform.id);
+export default async (apiKey, platformId) => {
+  // const platforms = await getAllPlatforms(apiKey);
+  // const platform = platforms.find(plat => plat.name === platformName) || {
+  //   id: -1,
+  // };
+  // const maxGames = await findGameMaxForPlatform(apiKey, platform.id);
+  const maxGames = await findGameMaxForPlatform(apiKey, platformId);
 
-  return await findRandomGame(apiKey, platform.id, maxGames);
+  return await findRandomGame(apiKey, platformId, maxGames);
 };

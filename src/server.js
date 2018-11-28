@@ -11,21 +11,23 @@ import cors from 'cors';
 import getRandomGame from './getRandomGame';
 import { searchCompendium } from './proxyCompendium';
 import { whoami } from './whoami';
+import PLATFORMS from './giantBombPlatform-corpus';
 
 dotenv.config();
 
-const PLATFORMS = [
-  'Game Gear',
-  'Super Nintendo Entertainment System',
-  'Nintendo Entertainment System',
-  'Game Boy',
-  'Game Boy Color',
-  'Game Boy Advance',
-  'Nintendo 64',
-  'Dreamcast',
-  'PlayStation',
-  'Genesis',
-];
+// retired for the full list of platforms
+// const PLATFORMS = [
+//   'Game Gear',
+//   'Super Nintendo Entertainment System',
+//   'Nintendo Entertainment System',
+//   'Game Boy',
+//   'Game Boy Color',
+//   'Game Boy Advance',
+//   'Nintendo 64',
+//   'Dreamcast',
+//   'PlayStation',
+//   'Genesis',
+// ];
 
 const formatDate = date =>
   new Intl.DateTimeFormat('en', {
@@ -52,7 +54,7 @@ const mapGameToPost = platform => ({
     image.small_url ||
     image.thumb_url ||
     image.icon_url ||
-    image.tiny_url}`,
+    image.tiny_url || ''}`,
 });
 
 const mapResultsToPost = text => ({
@@ -74,8 +76,8 @@ const postToGroupme = ({ text, image }) =>
 const getRandom = itms => itms[Math.floor(Math.random() * (itms.length - 1))];
 
 const sendGame = platform =>
-  getRandomGame(process.env.GB_TOKEN, platform)
-    .then(mapGameToPost(platform))
+  getRandomGame(process.env.GB_TOKEN, platform.id)
+    .then(mapGameToPost(platform.name))
     .then(postToGroupme);
 
 const sendCompendiumEntry = rawText =>
@@ -97,13 +99,12 @@ const generateId = () => {
     .join('') + `${time}`;
 }
 
-// the server is 4 hours ahead of NYC time, so 5 hours ahead of
-// Central time. So make this go off at 1:30pm server time,
-// which should be somewhere around 8:30am central time.
-cron.schedule('30 13 * * *', () => {
+// now this server is running in new york time,
+// schedule for 8:30am so 7:30am central
+cron.schedule('30 8 * * *', () => {
   const platform = getRandom(PLATFORMS);
   const id = generateId();
-  console.log(`[log] ${id} cron sending game`, platform);
+  console.log(`[log] ${id} cron sending game`, platform.name);
   sendGame(platform)
     .then(() => `[log] ${id}: did it ${new Date().toLocaleString()}`)
     .then(console.log)
@@ -122,6 +123,8 @@ app.use(bodyParser.json());
 app.post('/random', (req, res) => {
   const { text } = req.body;
 
+  if (!text) return res.sendStatus(200);
+
   const id = generateId();
   if (text.match('#whoami')) {
     console.log(`[log] ${id} generating backstory...`);
@@ -139,7 +142,7 @@ app.post('/random', (req, res) => {
 
   } else if (text.match('#random')) {
     const platform = getRandom(PLATFORMS);
-    console.log(`[log] ${id} post sending random game`, platform);
+    console.log(`[log] ${id} post sending random game`, platform.name);
     sendGame(platform)
       .then(() => `[log] ${id}: did it ${new Date().toLocaleString()}`)
       .then(console.log)
