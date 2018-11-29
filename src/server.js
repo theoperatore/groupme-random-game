@@ -3,11 +3,11 @@
 // pollyfill
 import 'isomorphic-fetch';
 import dotenv from 'dotenv';
-import cron from 'node-cron';
 import express from 'express';
 import compression from 'compression';
 import bodyParser from 'body-parser';
 import cors from 'cors';
+import helmet from 'helmet';
 import getRandomGame from './getRandomGame';
 import { searchCompendium } from './proxyCompendium';
 import { whoami } from './whoami';
@@ -54,7 +54,8 @@ const mapGameToPost = platform => ({
     image.small_url ||
     image.thumb_url ||
     image.icon_url ||
-    image.tiny_url || ''}`,
+    image.tiny_url ||
+    ''}`,
 });
 
 const mapResultsToPost = text => ({
@@ -75,10 +76,17 @@ const postToGroupme = ({ text, image }) =>
 
 const getRandom = itms => itms[Math.floor(Math.random() * (itms.length - 1))];
 
-const sendGame = platform =>
-  getRandomGame(process.env.GB_TOKEN, platform.id)
+const sendGame = platform => {
+  let gameName = '';
+  return getRandomGame(process.env.GB_TOKEN, platform.id)
+    .then(game => {
+      gameName = game.name;
+      return game;
+    })
     .then(mapGameToPost(platform.name))
-    .then(postToGroupme);
+    .then(postToGroupme)
+    .then(response => ({ response, gameName }));
+};
 
 const sendCompendiumEntry = rawText =>
   searchCompendium(rawText)
@@ -93,58 +101,62 @@ const sendWhoami = () =>
 const generateId = () => {
   const str = 'abcdefghijklmnopqrstuvwxyz';
   const time = Date.now();
-  return new Array(22)
-    .fill(1)
-    .map(() => str[Math.floor(Math.random() * str.length -1)])
-    .join('') + `${time}`;
-}
+  return (
+    new Array(22)
+      .fill(1)
+      .map(() => str[Math.floor(Math.random() * str.length - 1)])
+      .join('') + `${time}`
+  );
+};
 
-// now this server is running in new york time,
-// schedule for 8:30am so 7:30am central
-cron.schedule('30 8 * * *', () => {
-  const platform = getRandom(PLATFORMS);
-  const id = generateId();
-  console.log(`[log] ${id} cron sending game`, platform.name);
-  sendGame(platform)
-    .then(() => `[log] ${id}: did it ${new Date().toLocaleString()}`)
-    .then(console.log)
-    .catch(err => {
-      console.log(`[error] ${id}`, err);
-    });
-});
-console.log('scheduled...');
+const helpText = `
+Available commands are:
+\`\`\`
+#random     - get random GotD
+#dnd <term> - query compendium
+#whoami     - generate backstory
+#help       - show this message
+\`\`\`
+`;
 
 const app = express();
 
+app.use(helmet());
 app.use(cors());
 app.use(compression());
 app.use(bodyParser.json());
 
 app.post('/random', (req, res) => {
-  const { text } = req.body;
+  const { text, sender_type } = req.body;
+  const isBotMessage = sender_type === 'bot';
 
-  if (!text) return res.sendStatus(200);
+  if (!text || isBotMessage) return res.sendStatus(200);
 
   const id = generateId();
-  if (text.match('#whoami')) {
+  // this goes first to ensure help text doesn't trigger
+  // other commands
+  if (text.match('#help')) {
+    postToGroupme({ text: helpText });
+  } else if (text.match('#whoami')) {
     console.log(`[log] ${id} generating backstory...`);
     sendWhoami()
-      .then(() => `[log] ${id}: did it ${new Date().toLocaleString()}`)
+      .then(() => `[log] ${id} ${new Date().toLocaleString()}`)
       .then(console.log)
       .catch(err => console.log(`[error] ${id}`, err));
-
   } else if (text.match('#dnd')) {
     console.log(`[log] ${id} searching compendium:`, text);
     sendCompendiumEntry(text)
-      .then(() => `[log] ${id}: did it ${new Date().toLocaleString()}`)
+      .then(() => `[log] ${id} ${new Date().toLocaleString()}`)
       .then(console.log)
       .catch(err => console.log(`[error] ${id}`, err));
-
   } else if (text.match('#random')) {
     const platform = getRandom(PLATFORMS);
     console.log(`[log] ${id} post sending random game`, platform.name);
     sendGame(platform)
-      .then(() => `[log] ${id}: did it ${new Date().toLocaleString()}`)
+      .then(
+        ({ gameName }) =>
+          `[log] ${id} ${new Date().toLocaleString()} ${gameName}`
+      )
       .then(console.log)
       .catch(err => console.log(`[error] ${id}`, err));
   }
@@ -152,6 +164,7 @@ app.post('/random', (req, res) => {
   res.sendStatus(200);
 });
 
-app.listen(process.env.PORT || 9966, () => {
-  console.log('server running...');
+const PORT = process.env.PORT || 9966;
+app.listen(PORT, () => {
+  console.log('server listening on', PORT);
 });

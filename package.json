@@ -8,22 +8,21 @@
   "license": "MIT",
   "scripts": {
     "build": "babel src -d build",
-    "start": "forever -d -a -o out.log -e err.log start server.js",
-    "stop": "forever stop server.js",
+    "start": "forever -d -a -o out.log -e err.log start build/server.js",
+    "stop": "forever stop build/server.js",
     "dev": "yarn build && node build/server.js",
-    "deploy": "yarn build && rsync -avz -e 'ssh' --progress ./build/* package.json yarn.lock .env root@104.131.28.154:~/groupme-random-game/",
-    "remote": "ssh root@104.131.28.154",
+    "logs": "forever logs 0",
     "format": "prettier --single-quote true --trailing-comma es5 --write \"src/*.js\""
   },
   "dependencies": {
     "body-parser": "^1.17.2",
     "compression": "^1.7.0",
     "cors": "^2.8.4",
-    "dotenv": "^4.0.0",
+    "dotenv": "^6.1.0",
     "express": "^4.15.4",
     "forever": "^0.15.3",
-    "isomorphic-fetch": "^2.2.1",
-    "node-cron": "^1.2.1"
+    "helmet": "^3.15.0",
+    "isomorphic-fetch": "^2.2.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
