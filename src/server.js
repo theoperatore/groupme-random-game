@@ -126,6 +126,8 @@ app.use(cors());
 app.use(compression());
 app.use(bodyParser.json());
 
+app.get('/health_check', (req, res) => res.sendStatus(204));
+
 app.post('/random', (req, res) => {
   const { text, sender_type } = req.body;
   const isBotMessage = sender_type === 'bot';
@@ -166,5 +168,5 @@ app.post('/random', (req, res) => {
 
 const PORT = process.env.PORT || 9966;
 app.listen(PORT, () => {
-  console.log('server listening on', PORT);
+  console.log(new Date(), 'server listening on', PORT);
 });

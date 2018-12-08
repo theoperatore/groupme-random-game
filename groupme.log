@@ -1,0 +1,1005 @@
+scheduled...
+server running...
+[log] gunayghgsryondsmfaot1508345205132 generating backstory...
+[log] gunayghgsryondsmfaot1508345205132: did it 10/18/2017, 4:46:45 PM
+[log] nfqrbqytlpftcineaxdqo1508345211878 post sending random game Nintendo 64
+[log] nfqrbqytlpftcineaxdqo1508345211878: did it 10/18/2017, 4:47:05 PM
+[log] qcftdpyydbbmtupttetig1508345239263 searching compendium: #dnd wraith
+[log] qcftdpyydbbmtupttetig1508345239263: did it 10/18/2017, 4:47:19 PM
+scheduled...
+server running...
+[log] ncmeurnheqknfwodmpph1508345374558 generating backstory...
+[log] ncmeurnheqknfwodmpph1508345374558: did it 10/18/2017, 4:49:34 PM
+[log] holafhbmwuyimdkyxuqxqt1508352257714 generating backstory...
+[log] holafhbmwuyimdkyxuqxqt1508352257714: did it 10/18/2017, 6:44:17 PM
+[log] xgqqonnjetgfokgrjahdea1508352300698 generating backstory...
+[log] xgqqonnjetgfokgrjahdea1508352300698: did it 10/18/2017, 6:45:00 PM
+[log] fqbncgjjtfmlyllucfrhbs1508352544380 generating backstory...
+[log] fqbncgjjtfmlyllucfrhbs1508352544380: did it 10/18/2017, 6:49:04 PM
+[log] isjoxroathtvfxvasjnjp1508360065031 generating backstory...
+[log] isjoxroathtvfxvasjnjp1508360065031: did it 10/18/2017, 8:54:25 PM
+[log] vnfauevxbywrrfhrebs1508360135008 generating backstory...
+[log] vnfauevxbywrrfhrebs1508360135008: did it 10/18/2017, 8:55:35 PM
+[log] idfgdxevjlumyfpdqfcp1508360173326 generating backstory...
+[log] idfgdxevjlumyfpdqfcp1508360173326: did it 10/18/2017, 8:56:13 PM
+[log] rewteouoiyaydfdtrujxuj1508375980605 generating backstory...
+[log] rewteouoiyaydfdtrujxuj1508375980605: did it 10/19/2017, 1:19:40 AM
+[log] mlsibrghfruuhrhygwjdia1508376293522 generating backstory...
+[log] mlsibrghfruuhrhygwjdia1508376293522: did it 10/19/2017, 1:24:53 AM
+[log] fcccdkdoqtfyqlxrtlsp1508376436515 generating backstory...
+[log] fcccdkdoqtfyqlxrtlsp1508376436515: did it 10/19/2017, 1:27:16 AM
+[log] jsvfcqtpilfiaoxkffpwl1508417826955 searching compendium: #dnd feat
+[log] jsvfcqtpilfiaoxkffpwl1508417826955: did it 10/19/2017, 12:57:07 PM
+[log] uhgcmtypvhegjgqnfkjsfu1508418000992 searching compendium: #dnd grappler
+[log] uhgcmtypvhegjgqnfkjsfu1508418000992: did it 10/19/2017, 1:00:01 PM
+[log] bjfwcopkinjcphfdkuanay1508418245978 searching compendium: #dnd human variant
+[log] bjfwcopkinjcphfdkuanay1508418245978: did it 10/19/2017, 1:04:06 PM
+[log] shwjmhlhenrvvmhvvnnyf1508418979196 searching compendium: #dnd dual wielder
+[log] shwjmhlhenrvvmhvvnnyf1508418979196: did it 10/19/2017, 1:16:19 PM
+[log] dwbxvdaxusqokyikyowi1508418993065 searching compendium: #dnd dual wield
+[log] dwbxvdaxusqokyikyowi1508418993065: did it 10/19/2017, 1:16:33 PM
+[log] trkqtaxbilvpokplvkq1508419800908 cron sending game Game Boy Advance
+[log] trkqtaxbilvpokplvkq1508419800908: did it 10/19/2017, 1:30:09 PM
+[log] ptsrcawoylkvknlrfgubjj1508436829944 generating backstory...
+[log] ptsrcawoylkvknlrfgubjj1508436829944: did it 10/19/2017, 6:13:50 PM
+[log] sisjpubarfhtpgidcecb1508436838553 generating backstory...
+[log] sisjpubarfhtpgidcecb1508436838553: did it 10/19/2017, 6:13:58 PM
+[log] avxnmtlswusplcgbvcrrbw1508506200381 cron sending game Nintendo 64
+[error] avxnmtlswusplcgbvcrrbw1508506200381 { FetchError: request to https://www.giantbomb.com/api/platforms/?api_key=10ca95fa321e0917876b3ccd8d3668f30d829627&field_list=name%2Cid&format=json failed, reason: getaddrinfo ENOTFOUND www.giantbomb.com www.giantbomb.com:443
+    at ClientRequest.<anonymous> (/root/groupme-random-game/node_modules/node-fetch/index.js:133:11)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:188:7)
+    at TLSSocket.socketErrorListener (_http_client.js:309:9)
+    at emitOne (events.js:96:13)
+    at TLSSocket.emit (events.js:188:7)
+    at connectErrorNT (net.js:1021:8)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+  name: 'FetchError',
+  message: 'request to https://www.giantbomb.com/api/platforms/?api_key=10ca95fa321e0917876b3ccd8d3668f30d829627&field_list=name%2Cid&format=json failed, reason: getaddrinfo ENOTFOUND www.giantbomb.com www.giantbomb.com:443',
+  type: 'system',
+  errno: 'ENOTFOUND',
+  code: 'ENOTFOUND' }
+[log] nepophueavvwyrkwiylup1508507398531 post sending random game Dreamcast
+[log] nepophueavvwyrkwiylup1508507398531: did it 10/20/2017, 1:50:09 PM
+scheduled...
+server running...
+scheduled...
+server running...
+[log] hwjeyirdmsfkefneljlk1508592600488 cron sending game Genesis
+[log] hwjeyirdmsfkefneljlk1508592600488: did it 10/21/2017, 1:30:10 PM
+[log] bmdlfnmqntvhosfqmwms1508679000985 cron sending game Game Boy Advance
+[log] bmdlfnmqntvhosfqmwms1508679000985: did it 10/22/2017, 1:30:09 PM
+[log] wgtdiaqqcpogpmvjjkjq1508765400111 cron sending game PlayStation
+[log] wgtdiaqqcpogpmvjjkjq1508765400111: did it 10/23/2017, 1:30:09 PM
+[log] gveqcjmkwdecnprgvuftk1508851800122 cron sending game Nintendo 64
+[log] gveqcjmkwdecnprgvuftk1508851800122: did it 10/24/2017, 1:30:09 PM
+[log] ekjhlhftxjuqmpmxgtgxk1508938200568 cron sending game PlayStation
+[log] ekjhlhftxjuqmpmxgtgxk1508938200568: did it 10/25/2017, 1:30:09 PM
+[log] wxajeuoxrdwoiipyrbfqok1509024600463 cron sending game Game Gear
+[log] wxajeuoxrdwoiipyrbfqok1509024600463: did it 10/26/2017, 1:30:10 PM
+[log] eabplyuruwekmdqmntnvn1509111000178 cron sending game PlayStation
+[log] eabplyuruwekmdqmntnvn1509111000178: did it 10/27/2017, 1:30:09 PM
+[log] lfhvmbccenrxsyjvsdupm1509197400800 cron sending game Genesis
+[log] lfhvmbccenrxsyjvsdupm1509197400800: did it 10/28/2017, 1:30:09 PM
+[log] wqwoxxoqiwnakacllbomr1509283800784 cron sending game PlayStation
+[log] wqwoxxoqiwnakacllbomr1509283800784: did it 10/29/2017, 1:30:09 PM
+[log] isymkwafyuixrmevbnhhah1509370200766 cron sending game Nintendo Entertainment System
+[log] isymkwafyuixrmevbnhhah1509370200766: did it 10/30/2017, 1:30:09 PM
+[log] vjwrrhctroraovbfjdpwtx1509456600448 cron sending game Nintendo Entertainment System
+[log] vjwrrhctroraovbfjdpwtx1509456600448: did it 10/31/2017, 1:30:08 PM
+[log] awdxyjfofgeuukjfmajd1509543000012 cron sending game Nintendo Entertainment System
+[log] awdxyjfofgeuukjfmajd1509543000012: did it 11/1/2017, 1:30:10 PM
+[log] qpkyimhassyrbosvbpuye1509629400004 cron sending game Game Boy Advance
+[log] qpkyimhassyrbosvbpuye1509629400004: did it 11/2/2017, 1:30:08 PM
+[log] fdxtkiihilkxmigaruygid1509715800880 cron sending game Nintendo 64
+[log] fdxtkiihilkxmigaruygid1509715800880: did it 11/3/2017, 1:30:10 PM
+[log] owqgdaayebmbsshjxsmwnv1509802200660 cron sending game Game Boy
+[log] owqgdaayebmbsshjxsmwnv1509802200660: did it 11/4/2017, 1:30:08 PM
+[log] mhuepgdvsyjmonttggdlok1509888600927 cron sending game Game Gear
+[log] mhuepgdvsyjmonttggdlok1509888600927: did it 11/5/2017, 1:30:08 PM
+[log] yyavkuectgtdafarsoeia1509975000950 cron sending game Nintendo Entertainment System
+[log] yyavkuectgtdafarsoeia1509975000950: did it 11/6/2017, 1:30:09 PM
+[log] jopstfkenxjvagfhpelvem1510061400951 cron sending game Genesis
+[log] jopstfkenxjvagfhpelvem1510061400951: did it 11/7/2017, 1:30:08 PM
+[log] dcxsyjqbsdnvdpnmqpkltc1510147800757 cron sending game Game Boy Advance
+[log] dcxsyjqbsdnvdpnmqpkltc1510147800757: did it 11/8/2017, 1:30:09 PM
+[log] tmcdcajjthjqbnogifri1510234200112 cron sending game Game Boy
+[log] tmcdcajjthjqbnogifri1510234200112: did it 11/9/2017, 1:30:08 PM
+[log] rfagetjutwpcqypyooxfx1510320600268 cron sending game Super Nintendo Entertainment System
+[log] rfagetjutwpcqypyooxfx1510320600268: did it 11/10/2017, 1:30:11 PM
+[log] kkytegvynecsgdejpprbry1510407000148 cron sending game Game Boy Color
+[log] kkytegvynecsgdejpprbry1510407000148: did it 11/11/2017, 1:30:09 PM
+[log] fwdpuqrfegqfqcjlyrhix1510493400352 cron sending game Genesis
+[log] fwdpuqrfegqfqcjlyrhix1510493400352: did it 11/12/2017, 1:30:11 PM
+[log] nsqfaaykbycolkxytbxfri1510579800384 cron sending game Super Nintendo Entertainment System
+[log] nsqfaaykbycolkxytbxfri1510579800384: did it 11/13/2017, 1:30:08 PM
+[log] gkpkytdyoofdmpnyqjse1510666200228 cron sending game Dreamcast
+[log] gkpkytdyoofdmpnyqjse1510666200228: did it 11/14/2017, 1:30:12 PM
+[log] citpbfrgfalghkkujnnm1510752600092 cron sending game Game Gear
+[log] citpbfrgfalghkkujnnm1510752600092: did it 11/15/2017, 1:30:08 PM
+[log] chemuhlhthmjlggcyhwsg1510839000876 cron sending game Super Nintendo Entertainment System
+[log] chemuhlhthmjlggcyhwsg1510839000876: did it 11/16/2017, 1:30:10 PM
+[log] xahysyaprejeynbiqjds1510925400441 cron sending game PlayStation
+[log] xahysyaprejeynbiqjds1510925400441: did it 11/17/2017, 1:30:10 PM
+[log] tqcdbkhrtwvrwsufrskpt1511011800369 cron sending game Game Boy Advance
+[log] tqcdbkhrtwvrwsufrskpt1511011800369: did it 11/18/2017, 1:30:08 PM
+[log] miaquugdokacdqmxfefek1511098200275 cron sending game Genesis
+[log] miaquugdokacdqmxfefek1511098200275: did it 11/19/2017, 1:30:09 PM
+[log] yobefsofcetvoifqsqhnb1511184600915 cron sending game Nintendo Entertainment System
+[log] yobefsofcetvoifqsqhnb1511184600915: did it 11/20/2017, 1:30:10 PM
+[log] ksyakythddpjxrncmibtwy1511271000136 cron sending game Super Nintendo Entertainment System
+[log] ksyakythddpjxrncmibtwy1511271000136: did it 11/21/2017, 1:30:10 PM
+[log] dhsehfnlirxonywfbjrhf1511357400499 cron sending game Game Boy Color
+[log] dhsehfnlirxonywfbjrhf1511357400499: did it 11/22/2017, 1:30:15 PM
+[log] fdghxuvphrdqxmqvhodev1511443800157 cron sending game Dreamcast
+[log] fdghxuvphrdqxmqvhodev1511443800157: did it 11/23/2017, 1:30:07 PM
+[log] cksouyglmxjhapvsptofs1511530200852 cron sending game Game Boy Color
+[log] cksouyglmxjhapvsptofs1511530200852: did it 11/24/2017, 1:30:10 PM
+[log] iebeettfajjtvggjauamx1511616600914 cron sending game Genesis
+[log] iebeettfajjtvggjauamx1511616600914: did it 11/25/2017, 1:30:10 PM
+[log] wocwnmtuybjotjspkilscc1511703000981 cron sending game Game Gear
+[log] wocwnmtuybjotjspkilscc1511703000981: did it 11/26/2017, 1:30:10 PM
+[log] knqygtafgqcrjpluhxuo1511789400738 cron sending game Nintendo Entertainment System
+[log] knqygtafgqcrjpluhxuo1511789400738: did it 11/27/2017, 1:30:09 PM
+[log] norxroruolspfetupnllcq1511875800054 cron sending game Dreamcast
+[log] norxroruolspfetupnllcq1511875800054: did it 11/28/2017, 1:30:09 PM
+[log] ifieesykevwicgakggkt1511962200868 cron sending game Dreamcast
+[log] ifieesykevwicgakggkt1511962200868: did it 11/29/2017, 1:30:10 PM
+[log] sgawpbxfimtadoqcybbmw1512048600330 cron sending game Dreamcast
+[log] sgawpbxfimtadoqcybbmw1512048600330: did it 11/30/2017, 1:30:10 PM
+[log] nwbldaktwrlcwmlhtnfml1512135000398 cron sending game Nintendo 64
+[log] nwbldaktwrlcwmlhtnfml1512135000398: did it 12/1/2017, 1:30:09 PM
+[log] fmygncqcosbdtvhtlyuw1512221400925 cron sending game PlayStation
+[log] fmygncqcosbdtvhtlyuw1512221400925: did it 12/2/2017, 1:30:10 PM
+[log] gxpkdanadjijyryjjosaab1512307800845 cron sending game Dreamcast
+[log] gxpkdanadjijyryjjosaab1512307800845: did it 12/3/2017, 1:30:10 PM
+[log] whowqbqrfvnuffplbbbwsd1512394200104 cron sending game Game Boy Color
+[log] whowqbqrfvnuffplbbbwsd1512394200104: did it 12/4/2017, 1:30:11 PM
+[log] idluyeccaogciifpdmgbjo1512480600149 cron sending game Game Boy
+[log] idluyeccaogciifpdmgbjo1512480600149: did it 12/5/2017, 1:30:08 PM
+[log] ihybgralfvqaxmkdkrlqv1512567000398 cron sending game Game Gear
+[log] ihybgralfvqaxmkdkrlqv1512567000398: did it 12/6/2017, 1:30:09 PM
+[log] sgdqwbtcupeqdkokmgoiee1512653400826 cron sending game Game Gear
+[log] sgdqwbtcupeqdkokmgoiee1512653400826: did it 12/7/2017, 1:30:10 PM
+[log] pxqtswrebrnllgowogdtgg1512739800317 cron sending game Game Boy
+[log] pxqtswrebrnllgowogdtgg1512739800317: did it 12/8/2017, 1:30:08 PM
+[log] hstqbysqfumvmaeaupnwr1512826200598 cron sending game Nintendo 64
+[log] hstqbysqfumvmaeaupnwr1512826200598: did it 12/9/2017, 1:30:11 PM
+[log] xxcfsprdinadnbjpytooo1512912600231 cron sending game Nintendo 64
+[log] xxcfsprdinadnbjpytooo1512912600231: did it 12/10/2017, 1:30:09 PM
+[log] guskyaeixyfoohnsilyhwd1512999000458 cron sending game Game Gear
+[log] guskyaeixyfoohnsilyhwd1512999000458: did it 12/11/2017, 1:30:09 PM
+[log] rkalncgcwvhobgirgygwud1513085400036 cron sending game Super Nintendo Entertainment System
+[log] rkalncgcwvhobgirgygwud1513085400036: did it 12/12/2017, 1:30:09 PM
+[log] hpkfdqmjvlykxwricijjfq1513171800282 cron sending game Game Gear
+[log] hpkfdqmjvlykxwricijjfq1513171800282: did it 12/13/2017, 1:30:13 PM
+[log] kfqjqrhdmsrewijssskdi1513258200290 cron sending game Game Boy
+[log] kfqjqrhdmsrewijssskdi1513258200290: did it 12/14/2017, 1:30:09 PM
+[log] jkcrjaptgepoharqlxptf1513344600215 cron sending game Genesis
+[log] jkcrjaptgepoharqlxptf1513344600215: did it 12/15/2017, 1:30:09 PM
+[log] cwmsrmbacxlhwmvnodef1513431000771 cron sending game Game Boy Advance
+[log] cwmsrmbacxlhwmvnodef1513431000771: did it 12/16/2017, 1:30:16 PM
+[log] pxspbwbcrokisqhdksacbw1513517400988 cron sending game Game Boy Advance
+[log] pxspbwbcrokisqhdksacbw1513517400988: did it 12/17/2017, 1:30:11 PM
+[log] glwdsmrnwdiuonaemqumx1513603800128 cron sending game Genesis
+[log] glwdsmrnwdiuonaemqumx1513603800128: did it 12/18/2017, 1:30:11 PM
+[log] wfsrmfllbhdarytpwfar1513690200790 cron sending game PlayStation
+[log] wfsrmfllbhdarytpwfar1513690200790: did it 12/19/2017, 1:30:10 PM
+[log] fogrclvvermycxijgtlpxn1513776600388 cron sending game Nintendo Entertainment System
+[log] fogrclvvermycxijgtlpxn1513776600388: did it 12/20/2017, 1:30:09 PM
+[log] ydijixumhjwguadqoxhiiu1513863000340 cron sending game Game Boy Color
+[log] ydijixumhjwguadqoxhiiu1513863000340: did it 12/21/2017, 1:30:09 PM
+[log] nhdhguyvttoywogeaekws1513949400671 cron sending game Game Boy Advance
+[log] nhdhguyvttoywogeaekws1513949400671: did it 12/22/2017, 1:30:10 PM
+[log] snkkemrdyajorceifoxsl1514035800920 cron sending game Super Nintendo Entertainment System
+[log] snkkemrdyajorceifoxsl1514035800920: did it 12/23/2017, 1:30:09 PM
+[log] ihyundpdwykofqxagqbvqa1514122200753 cron sending game Genesis
+[log] ihyundpdwykofqxagqbvqa1514122200753: did it 12/24/2017, 1:30:08 PM
+[log] ukuluanotpxlsxxldlmcja1514208600513 cron sending game Game Boy
+[log] ukuluanotpxlsxxldlmcja1514208600513: did it 12/25/2017, 1:30:08 PM
+[log] mgioxqedjperrmbjvi1514295000596 cron sending game Genesis
+[log] mgioxqedjperrmbjvi1514295000596: did it 12/26/2017, 1:30:15 PM
+[log] ijpuunydyiwohmggbcavem1514381400962 cron sending game Nintendo Entertainment System
+[log] ijpuunydyiwohmggbcavem1514381400962: did it 12/27/2017, 1:30:09 PM
+[log] qvtcfqfcjtoiemcffhwjrt1514467800709 cron sending game Game Gear
+[log] qvtcfqfcjtoiemcffhwjrt1514467800709: did it 12/28/2017, 1:30:10 PM
+[log] heqgynbysydqnqtgvccubk1514554200020 cron sending game Super Nintendo Entertainment System
+[log] heqgynbysydqnqtgvccubk1514554200020: did it 12/29/2017, 1:30:21 PM
+[log] aqbmcvbfydpldwvhpjitlo1514640600741 cron sending game Nintendo 64
+[log] aqbmcvbfydpldwvhpjitlo1514640600741: did it 12/30/2017, 1:30:09 PM
+[log] jscomnobuchocvvvcv1514727000461 cron sending game Nintendo Entertainment System
+[log] jscomnobuchocvvvcv1514727000461: did it 12/31/2017, 1:30:09 PM
+[log] lvpbipnoucilmxkhhuison1514813400300 cron sending game Super Nintendo Entertainment System
+[log] lvpbipnoucilmxkhhuison1514813400300: did it 1/1/2018, 1:30:12 PM
+[log] nbdainpxvbwkulxwygcwvh1514899800923 cron sending game Nintendo Entertainment System
+[log] nbdainpxvbwkulxwygcwvh1514899800923: did it 1/2/2018, 1:30:11 PM
+[log] jvhbgxdjqtduqvhiorppev1514986200959 cron sending game Dreamcast
+[log] jvhbgxdjqtduqvhiorppev1514986200959: did it 1/3/2018, 1:30:10 PM
+[log] rmbiukypvixrdshstqjthf1515072600696 cron sending game Super Nintendo Entertainment System
+[log] rmbiukypvixrdshstqjthf1515072600696: did it 1/4/2018, 1:30:09 PM
+[log] eevmkriycdkgiewbqbt1515159000046 cron sending game Game Boy Advance
+[log] eevmkriycdkgiewbqbt1515159000046: did it 1/5/2018, 1:30:09 PM
+[log] beiusbofgibqtsvnwvra1515245400476 cron sending game Game Boy Advance
+[log] beiusbofgibqtsvnwvra1515245400476: did it 1/6/2018, 1:30:14 PM
+[log] lsrmiafsyudsxdsgfigmg1515331800667 cron sending game Game Boy Advance
+[log] lsrmiafsyudsxdsgfigmg1515331800667: did it 1/7/2018, 1:30:11 PM
+[log] fbetqdhkbguhxdfrxbffup1515418200654 cron sending game Game Boy
+[log] fbetqdhkbguhxdfrxbffup1515418200654: did it 1/8/2018, 1:30:12 PM
+[log] ewimuuahwcegaixkofssou1515504600509 cron sending game Game Gear
+[log] ewimuuahwcegaixkofssou1515504600509: did it 1/9/2018, 1:30:10 PM
+[log] ymwsulodtkpqaqdcnogk1515591000145 cron sending game Game Boy Advance
+[log] ymwsulodtkpqaqdcnogk1515591000145: did it 1/10/2018, 1:30:09 PM
+[log] afvhqrtntaiybvkhmuhegk1515677400982 cron sending game Nintendo Entertainment System
+[log] afvhqrtntaiybvkhmuhegk1515677400982: did it 1/11/2018, 1:30:09 PM
+[log] cybhpghkdspnrjypahxxv1515763800915 cron sending game PlayStation
+[log] cybhpghkdspnrjypahxxv1515763800915: did it 1/12/2018, 1:30:09 PM
+[log] fwepcgvhxqcqyikpincl1515850200587 cron sending game Nintendo 64
+[log] fwepcgvhxqcqyikpincl1515850200587: did it 1/13/2018, 1:30:09 PM
+[log] qxknkvjpnlymlxcipxubkk1515936600504 cron sending game Genesis
+[log] qxknkvjpnlymlxcipxubkk1515936600504: did it 1/14/2018, 1:30:09 PM
+[log] aianxpfdihakefcqrcvsgb1516023000285 cron sending game PlayStation
+[log] aianxpfdihakefcqrcvsgb1516023000285: did it 1/15/2018, 1:30:11 PM
+[log] ohhjjplovgidyccrfyhxk1516109400535 cron sending game Game Boy Advance
+[log] ohhjjplovgidyccrfyhxk1516109400535: did it 1/16/2018, 1:30:10 PM
+[log] gjpbkdjhgtueluhlmmpoes1516195800678 cron sending game Genesis
+[log] gjpbkdjhgtueluhlmmpoes1516195800678: did it 1/17/2018, 1:30:10 PM
+[log] esfoikixfpcrrkfryseg1516282200724 cron sending game Nintendo Entertainment System
+[log] esfoikixfpcrrkfryseg1516282200724: did it 1/18/2018, 1:30:09 PM
+[log] afyidtdyvjnqgloguuos1516368600547 cron sending game Genesis
+[log] afyidtdyvjnqgloguuos1516368600547: did it 1/19/2018, 1:30:09 PM
+[log] qoawpajgxrmreimxylgfmo1516455000612 cron sending game Nintendo 64
+[log] qoawpajgxrmreimxylgfmo1516455000612: did it 1/20/2018, 1:30:11 PM
+[log] efnpgheymmsoxbxudbqvsf1516541400489 cron sending game Game Boy Advance
+[log] efnpgheymmsoxbxudbqvsf1516541400489: did it 1/21/2018, 1:30:11 PM
+[log] ooblrmeaayyisvekxmnfks1516627800979 cron sending game Dreamcast
+[log] ooblrmeaayyisvekxmnfks1516627800979: did it 1/22/2018, 1:30:09 PM
+[log] seucqwogaittkippgtsx1516714200944 cron sending game PlayStation
+[log] seucqwogaittkippgtsx1516714200944: did it 1/23/2018, 1:30:12 PM
+[log] siqdgdlqbfvnliswautw1516800600982 cron sending game Game Gear
+[log] siqdgdlqbfvnliswautw1516800600982: did it 1/24/2018, 1:30:10 PM
+[log] xrlxlxgeicyotuuqggxvc1516887000129 cron sending game Dreamcast
+[log] xrlxlxgeicyotuuqggxvc1516887000129: did it 1/25/2018, 1:30:12 PM
+[log] ovncmgtqvxknbpxedpnne1516973400192 cron sending game PlayStation
+[log] ovncmgtqvxknbpxedpnne1516973400192: did it 1/26/2018, 1:30:09 PM
+[log] hcfrwwiuaxlnavefwehmcp1517059800461 cron sending game Genesis
+[log] hcfrwwiuaxlnavefwehmcp1517059800461: did it 1/27/2018, 1:30:12 PM
+[log] wwhkcevfgbmfpuuohcryvh1517146200125 cron sending game Game Boy Advance
+[log] wwhkcevfgbmfpuuohcryvh1517146200125: did it 1/28/2018, 1:30:12 PM
+[log] cpqcaxnagtwqrudsfyaxo1517232600119 cron sending game Game Boy
+[log] cpqcaxnagtwqrudsfyaxo1517232600119: did it 1/29/2018, 1:30:09 PM
+[log] sdmgyxqhatbaopcwtjxgnt1517319000477 cron sending game Game Boy
+[log] sdmgyxqhatbaopcwtjxgnt1517319000477: did it 1/30/2018, 1:30:17 PM
+[log] huroatlpdukcftjuivjtc1517405400336 cron sending game PlayStation
+[log] huroatlpdukcftjuivjtc1517405400336: did it 1/31/2018, 1:30:10 PM
+[log] gqopurnxpjkbanrkkusbet1517491800810 cron sending game Nintendo 64
+[log] gqopurnxpjkbanrkkusbet1517491800810: did it 2/1/2018, 1:30:11 PM
+[log] odahmlrklejllwftdxrj1517578200471 cron sending game Game Gear
+[log] odahmlrklejllwftdxrj1517578200471: did it 2/2/2018, 1:30:10 PM
+[log] baufdpfnoyyxmbyvvomkfc1517664600817 cron sending game Nintendo Entertainment System
+[log] baufdpfnoyyxmbyvvomkfc1517664600817: did it 2/3/2018, 1:30:17 PM
+[log] ounqcxyddsbhfjtexirl1517751000346 cron sending game Game Boy Advance
+[log] ounqcxyddsbhfjtexirl1517751000346: did it 2/4/2018, 1:30:10 PM
+[log] lcktkrhrrbfefbbejycedh1517837400615 cron sending game Game Boy Advance
+[log] lcktkrhrrbfefbbejycedh1517837400615: did it 2/5/2018, 1:30:09 PM
+[log] afgudfwaagypnwqmbdf1517923800436 cron sending game Genesis
+[log] afgudfwaagypnwqmbdf1517923800436: did it 2/6/2018, 1:30:09 PM
+[log] gycyselhwrpinmbowpemdd1518010200627 cron sending game PlayStation
+[log] gycyselhwrpinmbowpemdd1518010200627: did it 2/7/2018, 1:30:10 PM
+[log] vqendvhmxuvkqemyrlhpc1518096600727 cron sending game Nintendo 64
+[log] vqendvhmxuvkqemyrlhpc1518096600727: did it 2/8/2018, 1:30:09 PM
+[log] bmwitvjjrrynflbmymevw1518183000466 cron sending game Game Gear
+[log] bmwitvjjrrynflbmymevw1518183000466: did it 2/9/2018, 1:30:11 PM
+[log] wqjwavdngevdyoawppdw1518269400844 cron sending game Dreamcast
+[log] wqjwavdngevdyoawppdw1518269400844: did it 2/10/2018, 1:30:10 PM
+[log] tjnisnnyafdkireascde1518355800991 cron sending game Game Boy Color
+[log] tjnisnnyafdkireascde1518355800991: did it 2/11/2018, 1:30:12 PM
+[log] ypeviksvupdspbtmolleve1518442200955 cron sending game Nintendo Entertainment System
+[log] ypeviksvupdspbtmolleve1518442200955: did it 2/12/2018, 1:30:10 PM
+[log] gsqoovvrkxemyddcjspyg1518528600784 cron sending game Game Gear
+[log] gsqoovvrkxemyddcjspyg1518528600784: did it 2/13/2018, 1:30:10 PM
+[log] pmybtcdmerccevpmeleuup1518615000773 cron sending game Game Gear
+[log] pmybtcdmerccevpmeleuup1518615000773: did it 2/14/2018, 1:30:10 PM
+[log] tmtwfjfmyuejroerfnugcu1518701400979 cron sending game Game Boy Color
+[log] tmtwfjfmyuejroerfnugcu1518701400979: did it 2/15/2018, 1:30:11 PM
+[log] vtgkrnrvqaffmghxeivem1518787800554 cron sending game Game Boy Advance
+[log] vtgkrnrvqaffmghxeivem1518787800554: did it 2/16/2018, 1:30:10 PM
+[log] jcmpsmowxqtapqvrfcosb1518874200018 cron sending game Nintendo Entertainment System
+[log] jcmpsmowxqtapqvrfcosb1518874200018: did it 2/17/2018, 1:30:10 PM
+[log] hqpemeywsxbmfexinjmsi1518960600626 cron sending game PlayStation
+[log] hqpemeywsxbmfexinjmsi1518960600626: did it 2/18/2018, 1:30:10 PM
+[log] qxmsdlpjigssgkxqotsx1519047000809 cron sending game Nintendo 64
+[log] qxmsdlpjigssgkxqotsx1519047000809: did it 2/19/2018, 1:30:09 PM
+[log] odbkfpqnwtgodhavlgtu1519133400637 cron sending game Nintendo Entertainment System
+[log] odbkfpqnwtgodhavlgtu1519133400637: did it 2/20/2018, 1:30:11 PM
+[log] ajmmimagtkgotfeyav1519219800272 cron sending game Game Boy Color
+[log] ajmmimagtkgotfeyav1519219800272: did it 2/21/2018, 1:30:10 PM
+scheduled...
+server running...
+[log] doslewncfrkdcatxmjcss1519481391441 post sending random game Game Boy Advance
+[log] doslewncfrkdcatxmjcss1519481391441: did it 2/24/2018, 2:10:03 PM
+[log] ytbowojqbbenkubinlvu1519565400071 cron sending game Game Boy
+[log] ytbowojqbbenkubinlvu1519565400071: did it 2/25/2018, 1:30:08 PM
+[log] mrdsgggemcgtyfdqbadfpo1519651800032 cron sending game Game Gear
+[log] mrdsgggemcgtyfdqbadfpo1519651800032: did it 2/26/2018, 1:30:09 PM
+[log] fxkyalwtyjafdhdgygss1519738200653 cron sending game Genesis
+[log] fxkyalwtyjafdhdgygss1519738200653: did it 2/27/2018, 1:30:11 PM
+[log] ueowinmblfxbwvbtnjoyu1519824600448 cron sending game Nintendo 64
+[log] ueowinmblfxbwvbtnjoyu1519824600448: did it 2/28/2018, 1:30:13 PM
+[log] bfmuqqjmoiyfabpgmdoq1519911000354 cron sending game Game Boy
+[log] bfmuqqjmoiyfabpgmdoq1519911000354: did it 3/1/2018, 1:30:12 PM
+[log] plgxivqocoiwbkrwodyei1519997400054 cron sending game Game Boy Color
+[log] plgxivqocoiwbkrwodyei1519997400054: did it 3/2/2018, 1:30:10 PM
+[log] karhnoyghpoknueisellkw1520083800489 cron sending game Game Boy Advance
+[log] karhnoyghpoknueisellkw1520083800489: did it 3/3/2018, 1:30:11 PM
+[log] nfhfvhcvtwwlovyghrxpr1520170200385 cron sending game Game Gear
+[log] nfhfvhcvtwwlovyghrxpr1520170200385: did it 3/4/2018, 1:30:10 PM
+[log] qxxlqnesnolsmoflcakmfg1520256600180 cron sending game Game Boy
+[log] qxxlqnesnolsmoflcakmfg1520256600180: did it 3/5/2018, 1:30:10 PM
+[log] ulgemlwemvrdfgusjtqq1520343000413 cron sending game Game Boy Advance
+[log] ulgemlwemvrdfgusjtqq1520343000413: did it 3/6/2018, 1:30:10 PM
+[log] wjxysmtxhorayxnfifpt1520429400889 cron sending game Game Gear
+[log] wjxysmtxhorayxnfifpt1520429400889: did it 3/7/2018, 1:30:10 PM
+[log] taqtnhgoiuhuhfbopkic1520515800491 cron sending game PlayStation
+[log] taqtnhgoiuhuhfbopkic1520515800491: did it 3/8/2018, 1:30:13 PM
+[log] sshbvpbixokslugkquqlf1520602200588 cron sending game PlayStation
+[log] sshbvpbixokslugkquqlf1520602200588: did it 3/9/2018, 1:30:11 PM
+[log] htuygsimslhvsgakfxdyku1520688600075 cron sending game Nintendo 64
+[log] htuygsimslhvsgakfxdyku1520688600075: did it 3/10/2018, 1:30:10 PM
+[log] pnmxbtphvndherdfyqyx1520775000967 cron sending game Game Boy Advance
+[log] pnmxbtphvndherdfyqyx1520775000967: did it 3/11/2018, 1:30:11 PM
+[log] sbkbwdvlgwjxpxrvulcxv1520861400176 cron sending game Game Boy Advance
+[log] sbkbwdvlgwjxpxrvulcxv1520861400176: did it 3/12/2018, 1:30:09 PM
+[log] mdyjknvjmnvwgcaqiqayjo1520947800344 cron sending game Genesis
+[log] mdyjknvjmnvwgcaqiqayjo1520947800344: did it 3/13/2018, 1:30:10 PM
+[log] ilagsfmdgfgjtjuscvhkra1521034200455 cron sending game Game Boy Advance
+[log] ilagsfmdgfgjtjuscvhkra1521034200455: did it 3/14/2018, 1:30:10 PM
+[log] alfqsilqdyrxhcbtcwjgc1521120600854 cron sending game Game Boy Color
+[log] alfqsilqdyrxhcbtcwjgc1521120600854: did it 3/15/2018, 1:30:11 PM
+[log] rkwxlprfqtlwvliievdv1521207000077 cron sending game PlayStation
+[log] rkwxlprfqtlwvliievdv1521207000077: did it 3/16/2018, 1:30:10 PM
+[log] gfbohgyfquhicbekleuryu1521293400299 cron sending game PlayStation
+[log] gfbohgyfquhicbekleuryu1521293400299: did it 3/17/2018, 1:30:10 PM
+[log] euaynywbbwxsyonrmgmhj1521379800572 cron sending game PlayStation
+[log] euaynywbbwxsyonrmgmhj1521379800572: did it 3/18/2018, 1:30:11 PM
+[log] qybnyqfumvjbcchqudhkc1521466200401 cron sending game Nintendo Entertainment System
+[log] qybnyqfumvjbcchqudhkc1521466200401: did it 3/19/2018, 1:30:09 PM
+[log] mfhlnfjtejchjqyamqiwbo1521552600182 cron sending game Game Boy Advance
+[log] mfhlnfjtejchjqyamqiwbo1521552600182: did it 3/20/2018, 1:30:10 PM
+[log] xdhlknadwfbugplabitavt1521639000089 cron sending game Dreamcast
+[log] xdhlknadwfbugplabitavt1521639000089: did it 3/21/2018, 1:30:09 PM
+[log] dnftxmqlflcsstagitsms1521725400444 cron sending game Super Nintendo Entertainment System
+[log] dnftxmqlflcsstagitsms1521725400444: did it 3/22/2018, 1:30:09 PM
+[log] uqhghvdxirxjenqpkalkj1521811800424 cron sending game Game Boy
+[log] uqhghvdxirxjenqpkalkj1521811800424: did it 3/23/2018, 1:30:09 PM
+[log] qxjstubdddpsdpsfmvumd1521898200130 cron sending game Game Boy Advance
+[log] qxjstubdddpsdpsfmvumd1521898200130: did it 3/24/2018, 1:30:09 PM
+[log] xwitjtobbaduydtkeiw1521984600077 cron sending game Game Boy
+[log] xwitjtobbaduydtkeiw1521984600077: did it 3/25/2018, 1:30:09 PM
+[log] lajjqxtrcwiqcmwabgvhih1522071000591 cron sending game Game Boy
+[log] lajjqxtrcwiqcmwabgvhih1522071000591: did it 3/26/2018, 1:30:11 PM
+[log] ibrewdnhlilkfdxqfxwf1522157400569 cron sending game Super Nintendo Entertainment System
+[log] ibrewdnhlilkfdxqfxwf1522157400569: did it 3/27/2018, 1:30:06 PM
+[log] dyldkquokryvenirfttpcn1522243800810 cron sending game Dreamcast
+[log] dyldkquokryvenirfttpcn1522243800810: did it 3/28/2018, 1:30:06 PM
+[log] nfrrrpbblxuupbqhrsjdv1522330200836 cron sending game Dreamcast
+[log] nfrrrpbblxuupbqhrsjdv1522330200836: did it 3/29/2018, 1:30:07 PM
+[log] wqchudhkilknsmycundh1522416600155 cron sending game Super Nintendo Entertainment System
+[log] wqchudhkilknsmycundh1522416600155: did it 3/30/2018, 1:30:06 PM
+[log] owclfcxnmlraymdryhdp1522503000037 cron sending game PlayStation
+[log] owclfcxnmlraymdryhdp1522503000037: did it 3/31/2018, 1:30:06 PM
+[log] hcliwuefnjwlakgrgbvjax1522589400520 cron sending game Game Boy Advance
+[log] hcliwuefnjwlakgrgbvjax1522589400520: did it 4/1/2018, 1:30:06 PM
+[log] lsecafwhbqopreyvmtrcy1522675800673 cron sending game PlayStation
+[log] lsecafwhbqopreyvmtrcy1522675800673: did it 4/2/2018, 1:30:06 PM
+[log] sqxqunhpfahkqmcgnbafqo1522762200661 cron sending game Game Boy Advance
+[log] sqxqunhpfahkqmcgnbafqo1522762200661: did it 4/3/2018, 1:30:07 PM
+[log] jgweygybplbpsunobu1522848600701 cron sending game Genesis
+[log] jgweygybplbpsunobu1522848600701: did it 4/4/2018, 1:30:06 PM
+[log] utvrdgcsyfmvotylcgspgo1522935000440 cron sending game Dreamcast
+[log] utvrdgcsyfmvotylcgspgo1522935000440: did it 4/5/2018, 1:30:06 PM
+[log] prbrapefwoghtaghwosss1523021400159 cron sending game PlayStation
+[log] prbrapefwoghtaghwosss1523021400159: did it 4/6/2018, 1:30:05 PM
+[log] rejkalsedxbiooofqgxt1523107800176 cron sending game Super Nintendo Entertainment System
+[log] rejkalsedxbiooofqgxt1523107800176: did it 4/7/2018, 1:30:06 PM
+[log] cdlokifylxjmoohstrfsgi1523194200232 cron sending game Game Boy Advance
+[log] cdlokifylxjmoohstrfsgi1523194200232: did it 4/8/2018, 1:30:07 PM
+[log] ttajonvwfstrmyxshfaqyg1523280600248 cron sending game Super Nintendo Entertainment System
+[log] ttajonvwfstrmyxshfaqyg1523280600248: did it 4/9/2018, 1:30:06 PM
+[log] sbjgflofubhqameleoctkp1523367000337 cron sending game Nintendo 64
+[log] sbjgflofubhqameleoctkp1523367000337: did it 4/10/2018, 1:30:06 PM
+[log] kamylierealjpvoyavaeky1523453400077 cron sending game PlayStation
+[log] kamylierealjpvoyavaeky1523453400077: did it 4/11/2018, 1:30:06 PM
+[log] bmsvdtjywwcyproeghlqku1523539800124 cron sending game Game Boy Color
+[log] bmsvdtjywwcyproeghlqku1523539800124: did it 4/12/2018, 1:30:07 PM
+[log] tpcxuyweaveieifvuvkkj1523626200545 cron sending game PlayStation
+[log] tpcxuyweaveieifvuvkkj1523626200545: did it 4/13/2018, 1:30:05 PM
+[log] ctdkstdkaxbfrjfvvelrk1523712600351 cron sending game Dreamcast
+[log] ctdkstdkaxbfrjfvvelrk1523712600351: did it 4/14/2018, 1:30:07 PM
+[log] wlynnewgitijkiuddkgjmc1523799000027 cron sending game Dreamcast
+[log] wlynnewgitijkiuddkgjmc1523799000027: did it 4/15/2018, 1:30:06 PM
+[log] reoxaqeyglscvbrunqmtwm1523885400025 cron sending game Genesis
+[log] reoxaqeyglscvbrunqmtwm1523885400025: did it 4/16/2018, 1:30:06 PM
+[log] altehfjjtrijcpknchcwao1523971800768 cron sending game Dreamcast
+[log] altehfjjtrijcpknchcwao1523971800768: did it 4/17/2018, 1:30:07 PM
+[log] nitdquxdlryxhtnjcqdew1524058200653 cron sending game Nintendo 64
+[log] nitdquxdlryxhtnjcqdew1524058200653: did it 4/18/2018, 1:30:06 PM
+[log] ciuixopptitpbjfmegtle1524144600528 cron sending game Game Boy
+[log] ciuixopptitpbjfmegtle1524144600528: did it 4/19/2018, 1:30:07 PM
+[log] vuinjdgkvdfdskkwpxvlb1524231000753 cron sending game PlayStation
+[log] vuinjdgkvdfdskkwpxvlb1524231000753: did it 4/20/2018, 1:30:06 PM
+[log] jholelagcjykykobrxpxh1524317400819 cron sending game Game Boy Color
+[log] jholelagcjykykobrxpxh1524317400819: did it 4/21/2018, 1:30:06 PM
+[log] epjvbctljenvcpqcoitcuy1524403800894 cron sending game Game Boy
+[log] epjvbctljenvcpqcoitcuy1524403800894: did it 4/22/2018, 1:30:06 PM
+[log] iexgxeanbyitgmwwhhpif1524490200568 cron sending game Game Gear
+[log] iexgxeanbyitgmwwhhpif1524490200568: did it 4/23/2018, 1:30:06 PM
+[log] tpnkyqfecomrcbqlrtahkj1524576600622 cron sending game Nintendo 64
+[log] tpnkyqfecomrcbqlrtahkj1524576600622: did it 4/24/2018, 1:30:06 PM
+[log] nvbvkgxxolvmdxhvlkkbow1524663000383 cron sending game Nintendo Entertainment System
+[log] nvbvkgxxolvmdxhvlkkbow1524663000383: did it 4/25/2018, 1:30:08 PM
+[log] tnvqdoidupjcaspgypfob1524749400831 cron sending game Genesis
+[log] tnvqdoidupjcaspgypfob1524749400831: did it 4/26/2018, 1:30:05 PM
+[log] vpctgplmeqsabptqeawycg1524835800325 cron sending game Dreamcast
+[log] vpctgplmeqsabptqeawycg1524835800325: did it 4/27/2018, 1:30:06 PM
+[log] tixyuvojjglcbeaqcoox1524922200132 cron sending game Game Gear
+[log] tixyuvojjglcbeaqcoox1524922200132: did it 4/28/2018, 1:30:05 PM
+[log] riirmbsuhfuyklopakdp1525008600583 cron sending game Genesis
+[log] riirmbsuhfuyklopakdp1525008600583: did it 4/29/2018, 1:30:06 PM
+[log] hsovcqssvagodmkhmpqhsh1525095000309 cron sending game Game Boy Color
+[log] hsovcqssvagodmkhmpqhsh1525095000309: did it 4/30/2018, 1:30:07 PM
+[log] udrduwykqrctedxsiicekp1525181400262 cron sending game Nintendo Entertainment System
+[log] udrduwykqrctedxsiicekp1525181400262: did it 5/1/2018, 1:30:06 PM
+[log] kjhesajmkdewxtxadgwgs1525267800587 cron sending game Nintendo 64
+[log] kjhesajmkdewxtxadgwgs1525267800587: did it 5/2/2018, 1:30:06 PM
+[log] krrqhgohuoucueqlbswpc1525354200352 cron sending game PlayStation
+[log] krrqhgohuoucueqlbswpc1525354200352: did it 5/3/2018, 1:30:07 PM
+[log] emaqlfwpsahtbbmmkokjbp1525440600625 cron sending game Genesis
+[log] emaqlfwpsahtbbmmkokjbp1525440600625: did it 5/4/2018, 1:30:06 PM
+[log] waklnvnoqyyypsisxfwhu1525527000931 cron sending game Genesis
+[log] waklnvnoqyyypsisxfwhu1525527000931: did it 5/5/2018, 1:30:07 PM
+[log] pvnpvctyhkusafpaaegke1525613400411 cron sending game Game Gear
+[log] pvnpvctyhkusafpaaegke1525613400411: did it 5/6/2018, 1:30:07 PM
+[log] oitrnqygkpwbffoesebvls1525699800466 cron sending game Game Boy
+[log] oitrnqygkpwbffoesebvls1525699800466: did it 5/7/2018, 1:30:05 PM
+[log] gcuauiwomxridvndckwu1525786200016 cron sending game Dreamcast
+[error] gcuauiwomxridvndckwu1525786200016 TypeError: Cannot match against 'undefined' or 'null'.
+    at /root/groupme-random-game/utils.js:19:59
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+[log] sivaotdwdmfsulsuohdp1525788478043 post sending random game PlayStation
+[log] sivaotdwdmfsulsuohdp1525788478043: did it 5/8/2018, 2:08:04 PM
+[log] cmjshyjmjlmqeakyweid1525872600878 cron sending game Genesis
+[log] cmjshyjmjlmqeakyweid1525872600878: did it 5/9/2018, 1:30:07 PM
+[log] ktvgwmfvadklsjhkmlsx1525959000997 cron sending game Dreamcast
+[log] ktvgwmfvadklsjhkmlsx1525959000997: did it 5/10/2018, 1:30:07 PM
+[log] rdrgdcuxqafhjvgicykmgq1526045400090 cron sending game Super Nintendo Entertainment System
+[log] rdrgdcuxqafhjvgicykmgq1526045400090: did it 5/11/2018, 1:30:05 PM
+[log] tqfmsjfjpxrgvrdpmdncyj1526131800259 cron sending game Game Gear
+[log] tqfmsjfjpxrgvrdpmdncyj1526131800259: did it 5/12/2018, 1:30:06 PM
+[log] hisrgcqwsxigvylxmrvbff1526218200380 cron sending game Game Gear
+[log] hisrgcqwsxigvylxmrvbff1526218200380: did it 5/13/2018, 1:30:06 PM
+[log] jaijjnjcrxfioblvkwmjt1526304600492 cron sending game PlayStation
+[log] jaijjnjcrxfioblvkwmjt1526304600492: did it 5/14/2018, 1:30:07 PM
+[log] udesnvcgqaagcvdolmlo1526391000393 cron sending game Game Boy
+[log] udesnvcgqaagcvdolmlo1526391000393: did it 5/15/2018, 1:30:07 PM
+[log] mrgomptcjcvcxenivffaq1526477400993 cron sending game Genesis
+[log] mrgomptcjcvcxenivffaq1526477400993: did it 5/16/2018, 1:30:07 PM
+[log] opwrwglrepddeqfotglpdh1526563800943 cron sending game Game Boy Color
+[log] opwrwglrepddeqfotglpdh1526563800943: did it 5/17/2018, 1:30:07 PM
+[log] kkmnppmjoxfsxrywcmta1526650200201 cron sending game Nintendo 64
+[log] kkmnppmjoxfsxrywcmta1526650200201: did it 5/18/2018, 1:30:06 PM
+[log] hshrpyqbqhcillyepinwd1526736600984 cron sending game Game Boy
+[log] hshrpyqbqhcillyepinwd1526736600984: did it 5/19/2018, 1:30:07 PM
+[log] biyvjdktoesjqhrwmevqkd1526823000447 cron sending game Super Nintendo Entertainment System
+[log] biyvjdktoesjqhrwmevqkd1526823000447: did it 5/20/2018, 1:30:07 PM
+[log] fcbqvlmujhkkwjvaxjsfx1526909400125 cron sending game Dreamcast
+[log] fcbqvlmujhkkwjvaxjsfx1526909400125: did it 5/21/2018, 1:30:05 PM
+[log] wmcqisccbvuccsxvmewwur1526995800261 cron sending game PlayStation
+[log] wmcqisccbvuccsxvmewwur1526995800261: did it 5/22/2018, 1:30:06 PM
+[log] mklmitygvfpkmiwihyrunh1527082200059 cron sending game Game Boy Advance
+[log] mklmitygvfpkmiwihyrunh1527082200059: did it 5/23/2018, 1:30:06 PM
+[log] ydtderrccldejvqqtmaywf1527168600144 cron sending game Game Boy Advance
+[log] ydtderrccldejvqqtmaywf1527168600144: did it 5/24/2018, 1:30:08 PM
+[log] gxdstonjortdtjeqrioybb1527255000741 cron sending game PlayStation
+[log] gxdstonjortdtjeqrioybb1527255000741: did it 5/25/2018, 1:30:06 PM
+[log] klgcfounmmxsaqikstefh1527341400477 cron sending game Game Boy Color
+[log] klgcfounmmxsaqikstefh1527341400477: did it 5/26/2018, 1:30:05 PM
+[log] sfrdfaertpcfcuqnjpdnv1527427800081 cron sending game Game Boy Color
+[log] sfrdfaertpcfcuqnjpdnv1527427800081: did it 5/27/2018, 1:30:06 PM
+[log] hyytysshprsfnavppvpge1527514200935 cron sending game Game Boy Color
+[log] hyytysshprsfnavppvpge1527514200935: did it 5/28/2018, 1:30:07 PM
+[log] gpuqnvtmkfvhbhpvsjj1527600600834 cron sending game Game Gear
+[log] gpuqnvtmkfvhbhpvsjj1527600600834: did it 5/29/2018, 1:30:07 PM
+[log] wvbgiwhnsvnicguidapngl1527687000548 cron sending game Super Nintendo Entertainment System
+[log] wvbgiwhnsvnicguidapngl1527687000548: did it 5/30/2018, 1:30:06 PM
+[log] ujtscfhlnlqkqqdxupuup1527773400967 cron sending game Super Nintendo Entertainment System
+[log] ujtscfhlnlqkqqdxupuup1527773400967: did it 5/31/2018, 1:30:06 PM
+[log] kdruwksvboacjpsdhexg1527859800838 cron sending game Game Gear
+[log] kdruwksvboacjpsdhexg1527859800838: did it 6/1/2018, 1:30:08 PM
+[log] omuetbgxbxtptvujpgtltu1527946200248 cron sending game Game Boy
+[log] omuetbgxbxtptvujpgtltu1527946200248: did it 6/2/2018, 1:30:05 PM
+[log] pykrvtfeenmsojolylxahl1528032600801 cron sending game Super Nintendo Entertainment System
+[log] pykrvtfeenmsojolylxahl1528032600801: did it 6/3/2018, 1:30:06 PM
+[log] xcakrmegyeipxbrthjuftu1528119000820 cron sending game Genesis
+[log] xcakrmegyeipxbrthjuftu1528119000820: did it 6/4/2018, 1:30:06 PM
+[log] uctxppydbdtauhietevjp1528205400962 cron sending game Nintendo Entertainment System
+[log] uctxppydbdtauhietevjp1528205400962: did it 6/5/2018, 1:30:06 PM
+[log] ckjovlqffndjqfrwivaka1528291800184 cron sending game Game Boy
+[log] ckjovlqffndjqfrwivaka1528291800184: did it 6/6/2018, 1:30:06 PM
+[log] ebriwsceoijqxqtunenrc1528378200616 cron sending game PlayStation
+[log] ebriwsceoijqxqtunenrc1528378200616: did it 6/7/2018, 1:30:06 PM
+[log] stlkypapgrqhatabsxcasg1528378866882 post sending random game Game Boy
+[log] stlkypapgrqhatabsxcasg1528378866882: did it 6/7/2018, 1:41:12 PM
+[log] ntmducgditdsmtkxrkhkuh1528464600230 cron sending game Game Boy Color
+[log] ntmducgditdsmtkxrkhkuh1528464600230: did it 6/8/2018, 1:30:06 PM
+[log] kcevkuemwalxskmuofkg1528551000525 cron sending game Dreamcast
+[log] kcevkuemwalxskmuofkg1528551000525: did it 6/9/2018, 1:30:03 PM
+[log] dqodwxaavctdfjoheot1528637400049 cron sending game Dreamcast
+[log] dqodwxaavctdfjoheot1528637400049: did it 6/10/2018, 1:30:04 PM
+[log] xmdfopqvsrpcfisgxdbgf1528723800012 cron sending game Nintendo Entertainment System
+[log] xmdfopqvsrpcfisgxdbgf1528723800012: did it 6/11/2018, 1:30:03 PM
+[log] mupdoaaeexqbjflwxeie1528810200895 cron sending game Nintendo Entertainment System
+[log] mupdoaaeexqbjflwxeie1528810200895: did it 6/12/2018, 1:30:04 PM
+[log] hpkmekftoolbhaaeollbtv1528896600585 cron sending game Nintendo Entertainment System
+[log] hpkmekftoolbhaaeollbtv1528896600585: did it 6/13/2018, 1:30:07 PM
+[log] qlykhpbhbvtkcefeuorp1528983000986 cron sending game Nintendo Entertainment System
+[log] qlykhpbhbvtkcefeuorp1528983000986: did it 6/14/2018, 1:30:44 PM
+[log] jjguaindlqpsdhwhpqaqf1529069400249 cron sending game Game Boy
+[log] jjguaindlqpsdhwhpqaqf1529069400249: did it 6/15/2018, 1:30:03 PM
+[log] fdrpeqbymgjhxqtmypaey1529155800848 cron sending game Dreamcast
+[log] fdrpeqbymgjhxqtmypaey1529155800848: did it 6/16/2018, 1:30:04 PM
+[log] fykreynilkccnjbbvwsfie1529242200239 cron sending game Dreamcast
+[log] fykreynilkccnjbbvwsfie1529242200239: did it 6/17/2018, 1:30:03 PM
+[log] bvjyhqewsjspxgveeqjijr1529328600760 cron sending game Super Nintendo Entertainment System
+[log] bvjyhqewsjspxgveeqjijr1529328600760: did it 6/18/2018, 1:30:05 PM
+[log] wbkxaavhteohjfifvdeghm1529328650452 post sending random game Game Gear
+[log] wbkxaavhteohjfifvdeghm1529328650452: did it 6/18/2018, 1:30:53 PM
+[log] bhrmfheyhqodlbqqfaxsj1529329327460 post sending random game PlayStation
+[log] bhrmfheyhqodlbqqfaxsj1529329327460: did it 6/18/2018, 1:42:10 PM
+[log] mgwgrgsuknkvtisnteb1529330259442 post sending random game Game Boy Color
+[log] mgwgrgsuknkvtisnteb1529330259442: did it 6/18/2018, 1:57:42 PM
+[log] xhakfbwbhusgpwcnqdxgjg1529415000382 cron sending game Game Boy Advance
+[log] xhakfbwbhusgpwcnqdxgjg1529415000382: did it 6/19/2018, 1:30:03 PM
+[log] qmjnlncbuyaedwagyqalaa1529501400803 cron sending game Game Boy
+[log] qmjnlncbuyaedwagyqalaa1529501400803: did it 6/20/2018, 1:30:04 PM
+[log] mtiswdjemxudnhtcpfhwpa1529587800831 cron sending game Dreamcast
+[log] mtiswdjemxudnhtcpfhwpa1529587800831: did it 6/21/2018, 1:30:04 PM
+[log] neolnohfnvmrofqicbbnf1529674200187 cron sending game Game Boy Color
+[log] neolnohfnvmrofqicbbnf1529674200187: did it 6/22/2018, 1:30:04 PM
+[log] updhbtjrjysxglyanoa1529760600502 cron sending game Nintendo Entertainment System
+[log] updhbtjrjysxglyanoa1529760600502: did it 6/23/2018, 1:30:03 PM
+[log] pldyhlyxikfrgleebiusc1529847000005 cron sending game Nintendo Entertainment System
+[log] pldyhlyxikfrgleebiusc1529847000005: did it 6/24/2018, 1:30:03 PM
+[log] udvnklufrcluxyxllpoqod1529933400883 cron sending game Game Gear
+[log] udvnklufrcluxyxllpoqod1529933400883: did it 6/25/2018, 1:30:04 PM
+[log] wksjkwkbqcwthpoqroayou1530019800728 cron sending game PlayStation
+[log] wksjkwkbqcwthpoqroayou1530019800728: did it 6/26/2018, 1:30:04 PM
+[log] acqmbcbgkkmknanvtkqfg1530106200090 cron sending game Nintendo Entertainment System
+[log] acqmbcbgkkmknanvtkqfg1530106200090: did it 6/27/2018, 1:30:03 PM
+[log] tpotutsnkdcecrabfxcrnk1530192600079 cron sending game Dreamcast
+[log] tpotutsnkdcecrabfxcrnk1530192600079: did it 6/28/2018, 1:30:03 PM
+[log] fpsmtglilixpjdalhxpde1530279000412 cron sending game Super Nintendo Entertainment System
+[log] fpsmtglilixpjdalhxpde1530279000412: did it 6/29/2018, 1:30:03 PM
+[log] cfvslqxcedxhmdofxppfr1530365400530 cron sending game Nintendo 64
+[log] cfvslqxcedxhmdofxppfr1530365400530: did it 6/30/2018, 1:30:03 PM
+[log] tvbekvbmhtxletsumkcpu1530451800435 cron sending game Game Boy
+[log] tvbekvbmhtxletsumkcpu1530451800435: did it 7/1/2018, 1:30:04 PM
+[log] cuibscfxrhluulrnujv1530538200682 cron sending game Nintendo Entertainment System
+[log] cuibscfxrhluulrnujv1530538200682: did it 7/2/2018, 1:30:04 PM
+[log] hlrvmfxefmraixosnwirx1530624600148 cron sending game Game Boy
+[log] hlrvmfxefmraixosnwirx1530624600148: did it 7/3/2018, 1:30:04 PM
+[log] raicaebhkahqwkbmqnymj1530711000290 cron sending game Dreamcast
+[log] raicaebhkahqwkbmqnymj1530711000290: did it 7/4/2018, 1:30:04 PM
+[log] heiadeuexarnsudejrwsq1530797400201 cron sending game Genesis
+[log] heiadeuexarnsudejrwsq1530797400201: did it 7/5/2018, 1:30:03 PM
+[log] gkcnbdatrgxbogvpprsrdo1530883800342 cron sending game Genesis
+[log] gkcnbdatrgxbogvpprsrdo1530883800342: did it 7/6/2018, 1:30:03 PM
+[log] phfbpgojhrgjdhfehkmxhs1530970200633 cron sending game Nintendo Entertainment System
+[log] phfbpgojhrgjdhfehkmxhs1530970200633: did it 7/7/2018, 1:30:04 PM
+[log] liyvqcxcwxgyftybtdluv1531056600662 cron sending game Genesis
+[log] liyvqcxcwxgyftybtdluv1531056600662: did it 7/8/2018, 1:30:04 PM
+[log] yeoesmmqvklbypntqmppfw1531143000941 cron sending game Game Boy
+[log] yeoesmmqvklbypntqmppfw1531143000941: did it 7/9/2018, 1:30:05 PM
+[log] yeqyfsddkceprdurcglqk1531229400275 cron sending game PlayStation
+[log] yeqyfsddkceprdurcglqk1531229400275: did it 7/10/2018, 1:30:03 PM
+[log] etpfotnfnjpblbmkoario1531315800167 cron sending game Game Boy Color
+[log] etpfotnfnjpblbmkoario1531315800167: did it 7/11/2018, 1:30:04 PM
+[log] lgraxkverqcqthswjeuq1531402200493 cron sending game Nintendo Entertainment System
+[error] lgraxkverqcqthswjeuq1531402200493 { FetchError: request to http://www.giantbomb.com/api/platforms?api_key=10ca95fa321e0917876b3ccd8d3668f30d829627&format=json&field_list=name,id failed, reason: connect ETIMEDOUT 64.30.228.82:80
+    at ClientRequest.<anonymous> (/root/groupme-random-game/node_modules/node-fetch/index.js:133:11)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:188:7)
+    at Socket.socketErrorListener (_http_client.js:309:9)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1277:8)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+  name: 'FetchError',
+  message: 'request to http://www.giantbomb.com/api/platforms?api_key=10ca95fa321e0917876b3ccd8d3668f30d829627&format=json&field_list=name,id failed, reason: connect ETIMEDOUT 64.30.228.82:80',
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT' }
+[log] ucaynwuvskmhtwtfkpwnxp1531402358914 post sending random game Game Boy Color
+[error] ucaynwuvskmhtwtfkpwnxp1531402358914 { FetchError: request to http://www.giantbomb.com/api/platforms?api_key=10ca95fa321e0917876b3ccd8d3668f30d829627&format=json&field_list=name,id failed, reason: connect ETIMEDOUT 64.30.228.82:80
+    at ClientRequest.<anonymous> (/root/groupme-random-game/node_modules/node-fetch/index.js:133:11)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:188:7)
+    at Socket.socketErrorListener (_http_client.js:309:9)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1277:8)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+  name: 'FetchError',
+  message: 'request to http://www.giantbomb.com/api/platforms?api_key=10ca95fa321e0917876b3ccd8d3668f30d829627&format=json&field_list=name,id failed, reason: connect ETIMEDOUT 64.30.228.82:80',
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT' }
+scheduled...
+server running...
+[log] ptsxrxcxfotchnqaflgqd1531403929644 post sending random game PlayStation
+[log] ptsxrxcxfotchnqaflgqd1531403929644: did it 7/12/2018, 1:58:52 PM
+[log] mawshpmepkxmnjktsbdyhn1531488600257 cron sending game Game Boy
+[log] mawshpmepkxmnjktsbdyhn1531488600257: did it 7/13/2018, 1:30:03 PM
+[log] xajorlnyithxtomfuudsya1531575000481 cron sending game Dreamcast
+[log] xajorlnyithxtomfuudsya1531575000481: did it 7/14/2018, 1:30:04 PM
+[log] gocwiqogkwsnauabdscygm1531661400159 cron sending game Game Boy Advance
+[log] gocwiqogkwsnauabdscygm1531661400159: did it 7/15/2018, 1:30:03 PM
+[log] mpmkidatnempmluages1531747800376 cron sending game Game Boy Color
+[log] mpmkidatnempmluages1531747800376: did it 7/16/2018, 1:30:04 PM
+[log] ymrsffxmfuqdylgnxnlarc1531834200235 cron sending game Game Boy Advance
+[log] ymrsffxmfuqdylgnxnlarc1531834200235: did it 7/17/2018, 1:30:03 PM
+[log] ubwrplkyhcoitgkspyryv1531920600074 cron sending game Nintendo 64
+[log] ubwrplkyhcoitgkspyryv1531920600074: did it 7/18/2018, 1:30:04 PM
+[log] qvkusuxdiuwlflhjokqc1532007000481 cron sending game Game Boy
+[log] qvkusuxdiuwlflhjokqc1532007000481: did it 7/19/2018, 1:30:03 PM
+[log] ygfvuaqrigtqellylggoti1532093400331 cron sending game Genesis
+[log] ygfvuaqrigtqellylggoti1532093400331: did it 7/20/2018, 1:30:03 PM
+[log] pvaxmqbgbmeugxpfeurdpn1532179800283 cron sending game Dreamcast
+[log] pvaxmqbgbmeugxpfeurdpn1532179800283: did it 7/21/2018, 1:30:05 PM
+[log] usvjikprgmhdlvyglenxu1532266200622 cron sending game Genesis
+[log] usvjikprgmhdlvyglenxu1532266200622: did it 7/22/2018, 1:30:04 PM
+[log] alxisefxgilocheggokrdj1532352600197 cron sending game Game Boy Advance
+[log] alxisefxgilocheggokrdj1532352600197: did it 7/23/2018, 1:30:03 PM
+[log] wuyjdmmvvltmdpcoagptw1532439000725 cron sending game PlayStation
+[log] wuyjdmmvvltmdpcoagptw1532439000725: did it 7/24/2018, 1:30:04 PM
+[log] bsmhkihcdhmxqhnrrfnyh1532442693583 post sending random game Game Gear
+[log] bsmhkihcdhmxqhnrrfnyh1532442693583: did it 7/24/2018, 2:31:37 PM
+[log] uwjlchpdpfsejkelwvedr1532525400539 cron sending game PlayStation
+[log] uwjlchpdpfsejkelwvedr1532525400539: did it 7/25/2018, 1:30:04 PM
+[log] njnqgoysaiekulkvaojq1532611800763 cron sending game Genesis
+[log] njnqgoysaiekulkvaojq1532611800763: did it 7/26/2018, 1:30:04 PM
+[log] ohbirjdtahueveosnmpst1532698200467 cron sending game Nintendo Entertainment System
+[log] ohbirjdtahueveosnmpst1532698200467: did it 7/27/2018, 1:30:03 PM
+[log] jkiblnnaftyxvpfjsyqd1532784600054 cron sending game Dreamcast
+[log] jkiblnnaftyxvpfjsyqd1532784600054: did it 7/28/2018, 1:30:03 PM
+[log] bbruluoodvltrvxnhvufpr1532871000278 cron sending game Game Gear
+[log] bbruluoodvltrvxnhvufpr1532871000278: did it 7/29/2018, 1:30:04 PM
+[log] wmrthigyuepsypqanhdioi1532957400157 cron sending game Game Boy Color
+[log] wmrthigyuepsypqanhdioi1532957400157: did it 7/30/2018, 1:30:03 PM
+[log] tkvkkinpsnihuvqmkuji1533043800607 cron sending game Dreamcast
+[log] tkvkkinpsnihuvqmkuji1533043800607: did it 7/31/2018, 1:30:04 PM
+[log] onsyiickpjjancpaalxrfw1533130200724 cron sending game Game Boy Color
+[log] onsyiickpjjancpaalxrfw1533130200724: did it 8/1/2018, 1:30:04 PM
+[log] ohqnvtmitokwxuylgqlvtj1533216600539 cron sending game Super Nintendo Entertainment System
+[log] ohqnvtmitokwxuylgqlvtj1533216600539: did it 8/2/2018, 1:30:04 PM
+[log] mhnardmxpstjkchjwiscm1533303000397 cron sending game Game Boy Advance
+[log] mhnardmxpstjkchjwiscm1533303000397: did it 8/3/2018, 1:30:04 PM
+[log] eppifkufbdkyvprthdacs1533389400342 cron sending game Game Boy Advance
+[log] eppifkufbdkyvprthdacs1533389400342: did it 8/4/2018, 1:30:04 PM
+[log] cawdeyyytahehyrxaagbm1533475800064 cron sending game Nintendo 64
+[log] cawdeyyytahehyrxaagbm1533475800064: did it 8/5/2018, 1:30:03 PM
+[log] dripubsnbhkqiurfltkt1533562200673 cron sending game Nintendo Entertainment System
+[log] dripubsnbhkqiurfltkt1533562200673: did it 8/6/2018, 1:30:04 PM
+[log] jbgpkmtmgbtdjelgqlbr1533648600628 cron sending game PlayStation
+[log] jbgpkmtmgbtdjelgqlbr1533648600628: did it 8/7/2018, 1:30:04 PM
+[log] cdnomkulvjdyfwgusxsvhx1533735000082 cron sending game Nintendo Entertainment System
+[log] cdnomkulvjdyfwgusxsvhx1533735000082: did it 8/8/2018, 1:30:03 PM
+[log] oidjrjnnpuwjymfdpkrvra1533821400157 cron sending game Genesis
+[log] oidjrjnnpuwjymfdpkrvra1533821400157: did it 8/9/2018, 1:30:04 PM
+[log] smcxrdkcagocbvqwcnjabt1533907800399 cron sending game Super Nintendo Entertainment System
+[log] smcxrdkcagocbvqwcnjabt1533907800399: did it 8/10/2018, 1:30:03 PM
+[log] coglvvxqpqocysiuvthcr1533994200648 cron sending game Game Boy
+[log] coglvvxqpqocysiuvthcr1533994200648: did it 8/11/2018, 1:30:04 PM
+[log] bstjgemfgbekspmwmprigp1534080600703 cron sending game Super Nintendo Entertainment System
+[log] bstjgemfgbekspmwmprigp1534080600703: did it 8/12/2018, 1:30:03 PM
+[log] elongbfblnwoymiopirubh1534167000878 cron sending game Game Boy Advance
+[log] elongbfblnwoymiopirubh1534167000878: did it 8/13/2018, 1:30:04 PM
+[log] tvmrsilvmhkurjtioumsi1534253400169 cron sending game Game Gear
+[log] tvmrsilvmhkurjtioumsi1534253400169: did it 8/14/2018, 1:30:03 PM
+[log] iboqjrhmtjgahttddmijnt1534339800425 cron sending game Genesis
+[log] iboqjrhmtjgahttddmijnt1534339800425: did it 8/15/2018, 1:30:04 PM
+[log] ccehagxukwpbpvnwdjlll1534426200763 cron sending game PlayStation
+[log] ccehagxukwpbpvnwdjlll1534426200763: did it 8/16/2018, 1:30:05 PM
+[log] lcjffyamtsqlfujsdeqhb1534512600900 cron sending game Nintendo 64
+[log] lcjffyamtsqlfujsdeqhb1534512600900: did it 8/17/2018, 1:30:04 PM
+[log] otahxeunhykclwesduawj1534599000862 cron sending game Genesis
+[log] otahxeunhykclwesduawj1534599000862: did it 8/18/2018, 1:30:04 PM
+[log] mgbjqkqxgodgcpsamppwg1534685400872 cron sending game Game Boy
+[log] mgbjqkqxgodgcpsamppwg1534685400872: did it 8/19/2018, 1:30:04 PM
+[log] albdoghtcyvkiavhxdfvvd1534771800000 cron sending game Game Boy Color
+[log] albdoghtcyvkiavhxdfvvd1534771800000: did it 8/20/2018, 1:30:03 PM
+[log] gorkatdkbmihdnaich1534858200969 cron sending game Nintendo 64
+[log] gorkatdkbmihdnaich1534858200969: did it 8/21/2018, 1:30:04 PM
+[log] ebssvdfklmpiopfgokcgy1534944600041 cron sending game Dreamcast
+[log] ebssvdfklmpiopfgokcgy1534944600041: did it 8/22/2018, 1:30:03 PM
+[log] qemamuorqqgdidcsebgus1535031000892 cron sending game Genesis
+[log] qemamuorqqgdidcsebgus1535031000892: did it 8/23/2018, 1:30:04 PM
+[log] fombosgdqinsreivywutq1535117400282 cron sending game Dreamcast
+[log] fombosgdqinsreivywutq1535117400282: did it 8/24/2018, 1:30:03 PM
+[log] ctyiubobuaccseewmdup1535203800381 cron sending game Game Boy
+[log] ctyiubobuaccseewmdup1535203800381: did it 8/25/2018, 1:30:04 PM
+[log] hjqbpjyyeeoeswltbdodue1535290200778 cron sending game Game Boy Color
+[log] hjqbpjyyeeoeswltbdodue1535290200778: did it 8/26/2018, 1:30:04 PM
+[log] bvotlvuiiufyldqiwlyyh1535376600262 cron sending game Game Boy Color
+[log] bvotlvuiiufyldqiwlyyh1535376600262: did it 8/27/2018, 1:30:03 PM
+[log] apflgyouepyydhyhwasj1535463000974 cron sending game Game Gear
+[log] apflgyouepyydhyhwasj1535463000974: did it 8/28/2018, 1:30:04 PM
+[log] isaqidgceciyyjalpwtnmj1535549400752 cron sending game Game Boy
+[log] isaqidgceciyyjalpwtnmj1535549400752: did it 8/29/2018, 1:30:04 PM
+[log] mysonsntiwllcthrxqryva1535635800340 cron sending game Nintendo 64
+[log] mysonsntiwllcthrxqryva1535635800340: did it 8/30/2018, 1:30:04 PM
+[log] hjupoudxyfligopfshl1535722200220 cron sending game Game Boy
+[log] hjupoudxyfligopfshl1535722200220: did it 8/31/2018, 1:30:03 PM
+[log] kpmiyektnfjcmdystqeygt1535808600983 cron sending game Game Boy Advance
+[log] kpmiyektnfjcmdystqeygt1535808600983: did it 9/1/2018, 1:30:05 PM
+[log] ruanfbtvvwujijoxprvys1535808648118 post sending random game Game Boy Color
+[log] ruanfbtvvwujijoxprvys1535808648118: did it 9/1/2018, 1:30:51 PM
+[log] hvnojjkwmkerdrfhomixs1535808666187 post sending random game Dreamcast
+[log] hvnojjkwmkerdrfhomixs1535808666187: did it 9/1/2018, 1:31:08 PM
+[log] fpbmwkgewhgwnbklrsgbo1535809272709 post sending random game Game Boy Advance
+[log] fpbmwkgewhgwnbklrsgbo1535809272709: did it 9/1/2018, 1:41:15 PM
+[log] bkgaqlrordgsycluqilrxm1535809368813 post sending random game Game Boy Advance
+[log] bkgaqlrordgsycluqilrxm1535809368813: did it 9/1/2018, 1:42:51 PM
+[log] katjqnfrpsggcjnjoarqeu1535818753218 post sending random game PlayStation
+[log] katjqnfrpsggcjnjoarqeu1535818753218: did it 9/1/2018, 4:19:17 PM
+[log] qqnbxqkgvohvpnavbgwvd1535895000097 cron sending game Game Boy
+[log] qqnbxqkgvohvpnavbgwvd1535895000097: did it 9/2/2018, 1:30:04 PM
+[log] booojpmyfhaldcmlifkocb1535895795255 post sending random game Nintendo 64
+[log] booojpmyfhaldcmlifkocb1535895795255: did it 9/2/2018, 1:43:18 PM
+[log] mrtgibdlkoobspbdidqk1535898649314 post sending random game Game Boy
+[log] mrtgibdlkoobspbdidqk1535898649314: did it 9/2/2018, 2:30:53 PM
+[log] gbhosthmxxhlvakhqdsum1535981400411 cron sending game Game Gear
+[log] gbhosthmxxhlvakhqdsum1535981400411: did it 9/3/2018, 1:30:04 PM
+[log] tfuqxssatlpttqyffofxk1536067800163 cron sending game Game Gear
+[log] tfuqxssatlpttqyffofxk1536067800163: did it 9/4/2018, 1:30:03 PM
+[log] dfpxmryclyumbbcvujyvi1536154200593 cron sending game Nintendo Entertainment System
+[log] dfpxmryclyumbbcvujyvi1536154200593: did it 9/5/2018, 1:30:03 PM
+[log] gbigcnqwnxtsdujqklvc1536186721917 generating backstory...
+[log] gbigcnqwnxtsdujqklvc1536186721917: did it 9/5/2018, 10:32:02 PM
+[log] pbfmcbkeslhtnqgoimkawv1536186740867 generating backstory...
+[log] pbfmcbkeslhtnqgoimkawv1536186740867: did it 9/5/2018, 10:32:21 PM
+[log] lrlgqvxqqkobswaxhwtnhs1536186780541 searching compendium: #dnd barbarian
+[log] lrlgqvxqqkobswaxhwtnhs1536186780541: did it 9/5/2018, 10:33:01 PM
+[log] stnxbejyaqqakhkxqtafv1536186924581 generating backstory...
+[log] stnxbejyaqqakhkxqtafv1536186924581: did it 9/5/2018, 10:35:24 PM
+[log] fsrnhhsifiddowbluvfqa1536240600234 cron sending game Game Gear
+[log] fsrnhhsifiddowbluvfqa1536240600234: did it 9/6/2018, 1:30:03 PM
+[log] gosawrjfvppqetkjvoxdgk1536327000378 cron sending game Nintendo 64
+[log] gosawrjfvppqetkjvoxdgk1536327000378: did it 9/7/2018, 1:30:05 PM
+[log] peayrixnffrvybexcbklm1536413400726 cron sending game PlayStation
+[log] peayrixnffrvybexcbklm1536413400726: did it 9/8/2018, 1:30:05 PM
+[log] wjirpjbvynlwkuvsjnqx1536499800349 cron sending game Genesis
+[log] wjirpjbvynlwkuvsjnqx1536499800349: did it 9/9/2018, 1:30:03 PM
+[log] gpbqkjmrlnhlffdfvsvbw1536586200781 cron sending game Game Boy Advance
+[log] gpbqkjmrlnhlffdfvsvbw1536586200781: did it 9/10/2018, 1:30:04 PM
+[log] trouthkxcerbsrepjtpvv1536672600565 cron sending game Game Boy Color
+[log] trouthkxcerbsrepjtpvv1536672600565: did it 9/11/2018, 1:30:04 PM
+[log] sqqupjhcscipipftpwjarw1536759000358 cron sending game Genesis
+[log] sqqupjhcscipipftpwjarw1536759000358: did it 9/12/2018, 1:30:03 PM
+[log] wdnvbirpaisfvprpabvpl1536845400715 cron sending game Game Boy Advance
+[log] wdnvbirpaisfvprpabvpl1536845400715: did it 9/13/2018, 1:30:04 PM
+[log] ywjkusvsdbglrakorouix1536931800254 cron sending game Game Boy
+[log] ywjkusvsdbglrakorouix1536931800254: did it 9/14/2018, 1:30:05 PM
+[log] ioohuuqwrrvxgpmqvsvmoy1537018200147 cron sending game Genesis
+[log] ioohuuqwrrvxgpmqvsvmoy1537018200147: did it 9/15/2018, 1:30:05 PM
+[log] tspabyajbevvjsmnfwvrc1537104600851 cron sending game Dreamcast
+[log] tspabyajbevvjsmnfwvrc1537104600851: did it 9/16/2018, 1:30:05 PM
+[log] onxpigciqmvwlhbwbniksd1537105084482 post sending random game Dreamcast
+[log] onxpigciqmvwlhbwbniksd1537105084482: did it 9/16/2018, 1:38:08 PM
+[log] qoicmhwfdqtwihqrpacygo1537191000653 cron sending game Nintendo Entertainment System
+[log] qoicmhwfdqtwihqrpacygo1537191000653: did it 9/17/2018, 1:30:05 PM
+[log] omfvhgjxcwuvlvijtgmu1537277400019 cron sending game Game Gear
+[log] omfvhgjxcwuvlvijtgmu1537277400019: did it 9/18/2018, 1:30:03 PM
+[log] eudxnxnwmvjnxthrdwvogx1537363800174 cron sending game Game Gear
+[log] eudxnxnwmvjnxthrdwvogx1537363800174: did it 9/19/2018, 1:30:03 PM
+[log] xkairndkfqrswptvawrhc1537450200604 cron sending game Nintendo 64
+[log] xkairndkfqrswptvawrhc1537450200604: did it 9/20/2018, 1:30:04 PM
+[log] wbaausgpbuyxrtarbkdapl1537536600735 cron sending game Game Gear
+[log] wbaausgpbuyxrtarbkdapl1537536600735: did it 9/21/2018, 1:30:04 PM
+[log] evshtbgulbjvuyqumqykt1537536767323 post sending random game PlayStation
+[log] evshtbgulbjvuyqumqykt1537536767323: did it 9/21/2018, 1:32:50 PM
+[log] evopgqnycheegcgwqxyba1537623000596 cron sending game Genesis
+[log] evopgqnycheegcgwqxyba1537623000596: did it 9/22/2018, 1:30:04 PM
+[log] jlawaojahwuyxxrbongm1537625232641 post sending random game Super Nintendo Entertainment System
+[log] jlawaojahwuyxxrbongm1537625232641: did it 9/22/2018, 2:07:16 PM
+[log] ykluoicncmsfukqbivg1537625273477 post sending random game Game Boy
+[log] ykluoicncmsfukqbivg1537625273477: did it 9/22/2018, 2:07:56 PM
+[log] dgevjhylayvdcnddlvttu1537709400311 cron sending game Nintendo 64
+[log] dgevjhylayvdcnddlvttu1537709400311: did it 9/23/2018, 1:30:04 PM
+[log] okvexkvvxlcdjbvepimjli1537795800438 cron sending game Game Boy Color
+[log] okvexkvvxlcdjbvepimjli1537795800438: did it 9/24/2018, 1:30:05 PM
+[log] fjqkdbklbfuhmbvshyjkya1537807080851 post sending random game Game Boy Advance
+[log] fjqkdbklbfuhmbvshyjkya1537807080851: did it 9/24/2018, 4:38:04 PM
+[log] ptsnpofwulawbvhxujxr1537882200376 cron sending game Nintendo 64
+[log] ptsnpofwulawbvhxujxr1537882200376: did it 9/25/2018, 1:30:03 PM
+[log] sdqwldxsvkhyxyoxodctr1537882486473 post sending random game Nintendo Entertainment System
+[log] sdqwldxsvkhyxyoxodctr1537882486473: did it 9/25/2018, 1:34:49 PM
+[log] xmeihfhxlliarwarltgm1537882513450 post sending random game Dreamcast
+[log] xmeihfhxlliarwarltgm1537882513450: did it 9/25/2018, 1:35:16 PM
+[log] jeveulxmfkhtwhoedun1537892414630 post sending random game Dreamcast
+[log] jeveulxmfkhtwhoedun1537892414630: did it 9/25/2018, 4:20:17 PM
+[log] djvhgdqcvoyvycrnrnlnfe1537892963829 post sending random game Game Gear
+[log] djvhgdqcvoyvycrnrnlnfe1537892963829: did it 9/25/2018, 4:29:28 PM
+[log] jyeewuiaxailufrbbxvs1537893508109 post sending random game PlayStation
+[log] jyeewuiaxailufrbbxvs1537893508109: did it 9/25/2018, 4:38:31 PM
+[log] dqwxqjkmkydiigmqmliqwd1537968600223 cron sending game Game Boy Advance
+[log] dqwxqjkmkydiigmqmliqwd1537968600223: did it 9/26/2018, 1:30:04 PM
+[log] cixhqjrxiblvbeymathilj1537977393673 post sending random game Game Boy
+[log] cixhqjrxiblvbeymathilj1537977393673: did it 9/26/2018, 3:56:37 PM
+[log] gflctmagcdqylwhnkltlm1537977403456 post sending random game Genesis
+[log] gflctmagcdqylwhnkltlm1537977403456: did it 9/26/2018, 3:56:46 PM
+[log] hrechqupofspyfndlinhe1537977415195 post sending random game Super Nintendo Entertainment System
+[log] hrechqupofspyfndlinhe1537977415195: did it 9/26/2018, 3:56:58 PM
+[log] qobxnylufhnnsxxnbrdwnr1538055000972 cron sending game Game Boy Advance
+[log] qobxnylufhnnsxxnbrdwnr1538055000972: did it 9/27/2018, 1:30:04 PM
+[log] nsfypqcwceormhqeefgrkj1538062207899 post sending random game Game Boy Color
+[log] nsfypqcwceormhqeefgrkj1538062207899: did it 9/27/2018, 3:30:11 PM
+[log] argkshuabfdeqtipxaabi1538141400867 cron sending game Game Boy
+[log] argkshuabfdeqtipxaabi1538141400867: did it 9/28/2018, 1:30:04 PM
+[log] amyybfprcdwybdkddvymo1538227800351 cron sending game Nintendo Entertainment System
+[log] amyybfprcdwybdkddvymo1538227800351: did it 9/29/2018, 1:30:03 PM
+[log] byiapoyjugvebgsxfkjxe1538255698131 searching compendium: #dnd
+[error] byiapoyjugvebgsxfkjxe1538255698131 { FetchError: invalid json response body at https://app.roll20.net/compendium/compendium/globalsearch/dnd5e?terms= reason: Unexpected end of JSON input
+    at /root/groupme-random-game/node_modules/node-fetch/lib/body.js:48:31
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+  name: 'FetchError',
+  message: 'invalid json response body at https://app.roll20.net/compendium/compendium/globalsearch/dnd5e?terms= reason: Unexpected end of JSON input',
+  type: 'invalid-json' }
+[log] xqwcwiruhfdrfrcgnytadi1538255709727 generating backstory...
+[log] xqwcwiruhfdrfrcgnytadi1538255709727: did it 9/29/2018, 9:15:09 PM
+[log] uidliwkcpluljmfvvjblf1538314200548 cron sending game Game Boy
+[log] uidliwkcpluljmfvvjblf1538314200548: did it 9/30/2018, 1:30:04 PM
+[log] uvbqefdommbtsufqumabww1538315266259 post sending random game Nintendo Entertainment System
+[log] uvbqefdommbtsufqumabww1538315266259: did it 9/30/2018, 1:47:49 PM
+[log] myqrmfmakgaqgdklavqssm1538315284683 post sending random game Game Gear
+[log] myqrmfmakgaqgdklavqssm1538315284683: did it 9/30/2018, 1:48:07 PM
+[log] qscbetxjcwxlbbswsdnx1538315304024 post sending random game PlayStation
+[log] qscbetxjcwxlbbswsdnx1538315304024: did it 9/30/2018, 1:48:27 PM
+[log] wqqebgpruosjrlpcphadtp1538400600590 cron sending game Game Boy
+[log] wqqebgpruosjrlpcphadtp1538400600590: did it 10/1/2018, 1:30:04 PM
+[log] othudfdaivecfprsnfui1538487000433 cron sending game Game Boy Advance
+[log] othudfdaivecfprsnfui1538487000433: did it 10/2/2018, 1:30:03 PM
+[log] apryxwyjhvapfroetyfrd1538573400666 cron sending game Game Boy Advance
+[log] apryxwyjhvapfroetyfrd1538573400666: did it 10/3/2018, 1:30:03 PM
+[log] hrrekbigrutuonnghfcbc1538659800906 cron sending game Game Boy Color
+[log] hrrekbigrutuonnghfcbc1538659800906: did it 10/4/2018, 1:30:05 PM
+[log] wwxphjnffqehkqugypcuhm1538665684609 post sending random game Super Nintendo Entertainment System
+[log] wwxphjnffqehkqugypcuhm1538665684609: did it 10/4/2018, 3:08:08 PM
+[log] rcuodpnxruprfyvwkhifo1538746200586 cron sending game Game Boy Advance
+[log] rcuodpnxruprfyvwkhifo1538746200586: did it 10/5/2018, 1:30:05 PM
+[log] qejgtcwcayytsomboxqfqt1538832600372 cron sending game PlayStation
+[log] qejgtcwcayytsomboxqfqt1538832600372: did it 10/6/2018, 1:30:04 PM
+[log] jnsdxpiwnahnsxbqwunhe1538919000333 cron sending game Game Boy
+[log] jnsdxpiwnahnsxbqwunhe1538919000333: did it 10/7/2018, 1:30:04 PM
+[log] utgmxnmebfkariyhpowms1539005400043 cron sending game PlayStation
+[log] utgmxnmebfkariyhpowms1539005400043: did it 10/8/2018, 1:30:04 PM
+[log] dbengxllpygntvjqtgjsc1539091800416 cron sending game Game Gear
+[log] dbengxllpygntvjqtgjsc1539091800416: did it 10/9/2018, 1:30:04 PM
+[log] hswxrncycgaujpbwraosxd1539178200029 cron sending game Game Gear
+[log] hswxrncycgaujpbwraosxd1539178200029: did it 10/10/2018, 1:30:03 PM
+[log] uwcwgbgaafqiuagxnpbgi1539264600651 cron sending game Game Boy Color
+[log] uwcwgbgaafqiuagxnpbgi1539264600651: did it 10/11/2018, 1:30:04 PM
+[log] miovlcfdciquotrecujdaa1539351000379 cron sending game Super Nintendo Entertainment System
+[log] miovlcfdciquotrecujdaa1539351000379: did it 10/12/2018, 1:30:03 PM
+[log] rddsaykmslvpbrgswoqnn1539437400097 cron sending game Dreamcast
+[log] rddsaykmslvpbrgswoqnn1539437400097: did it 10/13/2018, 1:30:04 PM
+[log] mciutxamgqjvbkanvgdopu1539523800199 cron sending game Super Nintendo Entertainment System
+[log] mciutxamgqjvbkanvgdopu1539523800199: did it 10/14/2018, 1:30:03 PM
+[log] ukmjqklnkdkeqdjrprwjlk1539610200406 cron sending game Game Boy Advance
+[log] ukmjqklnkdkeqdjrprwjlk1539610200406: did it 10/15/2018, 1:30:03 PM
+[log] cmcuunrfwvqxpcbihmxsgf1539613645684 post sending random game Game Boy Color
+[log] cmcuunrfwvqxpcbihmxsgf1539613645684: did it 10/15/2018, 2:27:29 PM
+[log] gmmmfohjyprgmroxodop1539696600562 cron sending game Game Boy Color
+[log] gmmmfohjyprgmroxodop1539696600562: did it 10/16/2018, 1:30:04 PM
+[log] rtalcniliwkjhxojpds1539783000319 cron sending game Super Nintendo Entertainment System
+[log] rtalcniliwkjhxojpds1539783000319: did it 10/17/2018, 1:30:03 PM
+[log] mcxekvasqingfnaasolgx1539869400904 cron sending game Game Boy Color
+[log] mcxekvasqingfnaasolgx1539869400904: did it 10/18/2018, 1:30:04 PM
+[log] mdtwrbjoaotjnnvlpkdw1539955800907 cron sending game Nintendo 64
+[log] mdtwrbjoaotjnnvlpkdw1539955800907: did it 10/19/2018, 1:30:04 PM
+[log] hmhyacfcnymrflmkmtxru1540042200969 cron sending game Game Boy Advance
+[log] hmhyacfcnymrflmkmtxru1540042200969: did it 10/20/2018, 1:30:04 PM
+[log] sftepxbxxmaogepflrggr1540128600735 cron sending game Genesis
+[log] sftepxbxxmaogepflrggr1540128600735: did it 10/21/2018, 1:30:03 PM
+[log] wnlhkumomxbnwxuykpit1540215000887 cron sending game Game Boy Advance
+[log] wnlhkumomxbnwxuykpit1540215000887: did it 10/22/2018, 1:30:04 PM
+[log] lbglxyslqrigsotoflqlha1540301400707 cron sending game Game Gear
+[log] lbglxyslqrigsotoflqlha1540301400707: did it 10/23/2018, 1:30:04 PM
+[log] xoiduynqhkrvvqxpdmjsqh1540387800048 cron sending game Genesis
+[log] xoiduynqhkrvvqxpdmjsqh1540387800048: did it 10/24/2018, 1:30:04 PM
+[log] nthnyykdkyrrkhlwqsyhfr1540474200813 cron sending game Nintendo Entertainment System
+[log] nthnyykdkyrrkhlwqsyhfr1540474200813: did it 10/25/2018, 1:30:04 PM
+[log] bdcotbbicbhjmebashcucd1540560600943 cron sending game Game Boy Advance
+[log] bdcotbbicbhjmebashcucd1540560600943: did it 10/26/2018, 1:30:04 PM
+[log] rkpygtxaeephyjgivbwie1540647000702 cron sending game Genesis
+[log] rkpygtxaeephyjgivbwie1540647000702: did it 10/27/2018, 1:30:04 PM
+[log] dulisvbiyxpmqgqcvenwkf1540733400327 cron sending game PlayStation
+[error] dulisvbiyxpmqgqcvenwkf1540733400327 { FetchError: request to https://www.giantbomb.com/api/games/?api_key=10ca95fa321e0917876b3ccd8d3668f30d829627&format=json&limit=1&offset=1461&platforms=22 failed, reason: getaddrinfo ENOTFOUND www.giantbomb.com www.giantbomb.com:443
+    at ClientRequest.<anonymous> (/root/groupme-random-game/node_modules/node-fetch/index.js:133:11)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:188:7)
+    at TLSSocket.socketErrorListener (_http_client.js:309:9)
+    at emitOne (events.js:96:13)
+    at TLSSocket.emit (events.js:188:7)
+    at connectErrorNT (net.js:1021:8)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+  name: 'FetchError',
+  message: 'request to https://www.giantbomb.com/api/games/?api_key=10ca95fa321e0917876b3ccd8d3668f30d829627&format=json&limit=1&offset=1461&platforms=22 failed, reason: getaddrinfo ENOTFOUND www.giantbomb.com www.giantbomb.com:443',
+  type: 'system',
+  errno: 'ENOTFOUND',
+  code: 'ENOTFOUND' }
+[log] ygrprcyvcejpvfocsagwpy1540733434691 post sending random game Dreamcast
+[log] ygrprcyvcejpvfocsagwpy1540733434691: did it 10/28/2018, 1:30:37 PM
+[log] wsamxwtbbxtbepharfien1540819800865 cron sending game Nintendo Entertainment System
+[log] wsamxwtbbxtbepharfien1540819800865: did it 10/29/2018, 1:30:03 PM
+[log] ttdcrrlftwrhlcsnskbgf1540906200125 cron sending game Nintendo Entertainment System
+[log] ttdcrrlftwrhlcsnskbgf1540906200125: did it 10/30/2018, 1:30:05 PM
+[log] msydggjkkelmhuvqahpjsx1540992600689 cron sending game PlayStation
+[log] msydggjkkelmhuvqahpjsx1540992600689: did it 10/31/2018, 1:30:04 PM
+[log] igtisgwtvktycajeshlayo1541079000786 cron sending game Nintendo Entertainment System
+[log] igtisgwtvktycajeshlayo1541079000786: did it 11/1/2018, 1:30:04 PM
+[log] vdmxvvlamllnocqnivkyn1541165400429 cron sending game Game Boy Advance
+[log] vdmxvvlamllnocqnivkyn1541165400429: did it 11/2/2018, 1:30:04 PM
+[log] sgnwxpfnffbmumjswuewl1541251800323 cron sending game Genesis
+[log] sgnwxpfnffbmumjswuewl1541251800323: did it 11/3/2018, 1:30:04 PM
+[log] sftkiuhthjthxxjqeovcmj1541338200675 cron sending game Game Boy Color
+[log] sftkiuhthjthxxjqeovcmj1541338200675: did it 11/4/2018, 1:30:04 PM
+[log] rmdiphwkswnvxtnskssopm1541424600213 cron sending game Nintendo 64
+[log] rmdiphwkswnvxtnskssopm1541424600213: did it 11/5/2018, 1:30:04 PM
+[log] bphfjwvxjmqamjllrgiawa1541511000671 cron sending game Game Boy
+[log] bphfjwvxjmqamjllrgiawa1541511000671: did it 11/6/2018, 1:30:04 PM
+[log] eceqqjvbxaixnodaiysoh1541597400590 cron sending game PlayStation
+[log] eceqqjvbxaixnodaiysoh1541597400590: did it 11/7/2018, 1:30:03 PM
+[log] rkwrykronsngobagiitrj1541683800688 cron sending game Nintendo 64
+[log] rkwrykronsngobagiitrj1541683800688: did it 11/8/2018, 1:30:04 PM
+[log] lxiestlmmtccqoadokjsf1541770200099 cron sending game Game Gear
+[log] lxiestlmmtccqoadokjsf1541770200099: did it 11/9/2018, 1:30:03 PM
+[log] ivovekvwdetwxevdknovpr1541856600713 cron sending game Dreamcast
+[log] ivovekvwdetwxevdknovpr1541856600713: did it 11/10/2018, 1:30:03 PM
+[log] ogypbbixmfkprestphsvy1541943000661 cron sending game Dreamcast
+[log] ogypbbixmfkprestphsvy1541943000661: did it 11/11/2018, 1:30:04 PM
+[log] vhsgobsnrtqusnaukeowvw1542029400165 cron sending game Dreamcast
+[log] vhsgobsnrtqusnaukeowvw1542029400165: did it 11/12/2018, 1:30:03 PM
+[log] gopxtowyocbsjehskflrjt1542115800754 cron sending game Super Nintendo Entertainment System
+[log] gopxtowyocbsjehskflrjt1542115800754: did it 11/13/2018, 1:30:04 PM
+[log] onbcagetvrubwgtnuqdvaa1542202200957 cron sending game Nintendo 64
+[log] onbcagetvrubwgtnuqdvaa1542202200957: did it 11/14/2018, 1:30:04 PM
+[log] ywkongexrwsffkgndjuxm1542288600309 cron sending game Game Boy Color
+[log] ywkongexrwsffkgndjuxm1542288600309: did it 11/15/2018, 1:30:03 PM
+[log] vacqnwuafbqvbyrpjl1542375000732 cron sending game Nintendo Entertainment System
+[log] vacqnwuafbqvbyrpjl1542375000732: did it 11/16/2018, 1:30:04 PM
+[log] huipgxgbkhjfinqxfiedg1542461400566 cron sending game Genesis
+[log] huipgxgbkhjfinqxfiedg1542461400566: did it 11/17/2018, 1:30:03 PM
+[log] hfccsyytkprcsphloitro1542547800226 cron sending game PlayStation
+[log] hfccsyytkprcsphloitro1542547800226: did it 11/18/2018, 1:30:04 PM
+[log] gcrahonotcbuaufdw1542634200473 cron sending game Game Boy Advance
+[log] gcrahonotcbuaufdw1542634200473: did it 11/19/2018, 1:30:03 PM
+[log] qhbukkepjkqkqdjulrrd1542720600334 cron sending game Game Gear
+[log] qhbukkepjkqkqdjulrrd1542720600334: did it 11/20/2018, 1:30:05 PM
+[log] fpkcdvlqeinixufojykbmb1542807000461 cron sending game Game Boy Advance
+[log] fpkcdvlqeinixufojykbmb1542807000461: did it 11/21/2018, 1:30:04 PM
+[log] baynlcosekebsacuyguti1542893400850 cron sending game Game Boy Advance
+[log] baynlcosekebsacuyguti1542893400850: did it 11/22/2018, 1:30:04 PM
+[log] vcyrepcubmfmiiugowsixg1542979800242 cron sending game Game Boy
+[log] vcyrepcubmfmiiugowsixg1542979800242: did it 11/23/2018, 1:30:04 PM
+[log] wlnqdtiutugkwqvjbrxpvi1543066200409 cron sending game Genesis
+[log] wlnqdtiutugkwqvjbrxpvi1543066200409: did it 11/24/2018, 1:30:05 PM
+[log] ishrpmjhyignbqdjjcnoyw1543152601338 cron sending game Nintendo 64
+[log] ishrpmjhyignbqdjjcnoyw1543152601338: did it 11/25/2018, 1:30:05 PM
+[log] xoeobtuybdpqqipwluhfjk1543239000596 cron sending game Nintendo Entertainment System
+[log] xoeobtuybdpqqipwluhfjk1543239000596: did it 11/26/2018, 1:30:03 PM
+[log] jdfubnwjulmvatvjrmnhnk1543325400133 cron sending game Game Boy
+[log] jdfubnwjulmvatvjrmnhnk1543325400133: did it 11/27/2018, 1:30:03 PM
