@@ -15,6 +15,7 @@
     "format": "prettier --single-quote true --trailing-comma es5 --write \"src/*.js\""
   },
   "dependencies": {
+    "@theoperatore/alorg-service": "^1.0.2",
     "body-parser": "^1.17.2",
     "compression": "^1.7.0",
     "cors": "^2.8.4",

@@ -8,6 +8,7 @@ import compression from 'compression';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import helmet from 'helmet';
+import alorg from '@theoperatore/alorg-service';
 import getRandomGame from './getRandomGame';
 import { searchCompendium } from './proxyCompendium';
 import { whoami } from './whoami';
@@ -28,6 +29,7 @@ dotenv.config();
 //   'PlayStation',
 //   'Genesis',
 // ];
+const client = alorg.createClient();
 
 const formatDate = date =>
   new Intl.DateTimeFormat('en', {
@@ -115,6 +117,7 @@ Available commands are:
 #random     - get random GotD
 #dnd <term> - query compendium
 #whoami     - generate backstory
+#monster    - random dnd5e monster
 #help       - show this message
 \`\`\`
 `;
@@ -161,6 +164,18 @@ app.post('/random', (req, res) => {
       )
       .then(console.log)
       .catch(err => console.log(`[error] ${id}`, err));
+  } else if (text.match('#monster')) {
+    client.get('alorg://dnd-monster-api/random').then(response => {
+      const monster = JSON.parse(response.payload);
+      postToGroupme({
+        text: `# ${monster.name}\n# ${monster.race}\n# ${monster.abilities.map(a => a.name).join(', ')}`,
+        image: monster.image
+      });
+    })
+    .catch(error => {
+      console.error(error);
+      postToGroupme({ text: `Failure: ${error.message}` });
+    })
   }
 
   res.sendStatus(200);
