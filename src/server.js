@@ -24,7 +24,6 @@ const groupsToBotIds = {
   [DEV_GROUP_ID]: process.env.DEV_BOT_ID,
 };
 
-
 // retired for the full list of platforms
 // const PLATFORMS = [
 //   'Game Gear',
@@ -178,17 +177,21 @@ app.post('/random', (req, res) => {
       .then(console.log)
       .catch(err => console.log(`[error] ${id}`, err));
   } else if (text.match('#monster')) {
-    client.get('alorg://dnd-monster-api/random').then(response => {
-      const monster = JSON.parse(response.payload);
-      postToGroupme(botId)({
-        text: `# ${monster.name}\n# ${monster.race}\n# ${monster.abilities.map(a => a.name).join(', ')}`,
-        image: monster.image
+    client
+      .get('alorg://dnd-monster-api/random')
+      .then(response => {
+        const monster = JSON.parse(response.payload);
+        postToGroupme(botId)({
+          text: `# ${monster.name}\n# ${
+            monster.race
+          }\n# ${monster.abilities.map(a => a.name).join(', ')}`,
+          image: monster.image,
+        });
+      })
+      .catch(error => {
+        console.error(error);
+        postToGroupme(botId)({ text: `Failure: ${error.message}` });
       });
-    })
-    .catch(error => {
-      console.error(error);
-      postToGroupme(botId)({ text: `Failure: ${error.message}` });
-    })
   }
 
   res.sendStatus(200);
