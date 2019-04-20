@@ -140,17 +140,13 @@ app.use(bodyParser.json());
 
 app.get('/health_check', (req, res) => {
   console.log(`[log] - ${new Date().toLocaleString()} health_check`);
-  client.get('alorg://dnd-monster-api/health_check').then(({ headers }) => {
-    if (headers[':status'] === 204) return res.sendStatus(204);
-    return res.sendStatus(headers[':status']);
-  });
+  res.sendStatus(204);
 });
 
 app.post('/random', (req, res) => {
   const { text, sender_type, group_id } = req.body;
   const isBotMessage = sender_type === 'bot';
   const botId = groupsToBotIds[group_id];
-console.log(group_id, botId);
 
   if (!text || isBotMessage || !botId) return res.sendStatus(200);
 
