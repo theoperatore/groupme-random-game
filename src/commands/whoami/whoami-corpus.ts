@@ -1,4 +1,4 @@
-const corpus = {
+export const corpus = {
   template: '@adjective @race @dclass from @location who @backstory',
   adjective: [
     'bigoted',
