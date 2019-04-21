@@ -25,7 +25,7 @@ export class Parser {
 
   parse(rawText: string): Command | undefined {
     for (let entry of this.commands.entries()) {
-      if (`${this.delimiter}${entry[0]}`.match(rawText)) {
+      if (rawText.match(`${this.delimiter}${entry[0]}`)) {
         return entry[1];
       }
     }

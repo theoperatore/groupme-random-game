@@ -18,3 +18,10 @@ test('Gives back the correct command', () => {
 
   expect(parser.parse('#help')).toBe(noop);
 });
+
+test('Handles multi words correctly', () => {
+  const parser = new Parser();
+  parser.setCommand('dnd', 'a thing', noop);
+
+  expect(parser.parse('#dnd a wraith')).toBe(noop);
+});
