@@ -1,4 +1,9 @@
-const platforms = [
+export type Platform = {
+  id: number;
+  name: string;
+};
+
+export const platforms: Platform[] = [
   { id: 1, name: 'Amiga' },
   { id: 3, name: 'Game Boy' },
   { id: 4, name: 'Game Boy Advance' },
@@ -100,5 +105,3 @@ const platforms = [
   { id: 113, name: 'Sharp X1' },
   { id: 114, name: 'FM-7' },
 ];
-
-export default platforms;
