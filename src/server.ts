@@ -7,7 +7,12 @@ import * as express from 'express';
 import { GroupMePostBody, GroupMeSender } from './types';
 import { Parser } from './parser';
 import { postToGroupme } from './utils';
-import { commandRandom, commandWhoami, commandDnd } from './commands';
+import {
+  commandRandom,
+  commandWhoami,
+  commandDnd,
+  commandMonster,
+} from './commands';
 
 // TODO: figure out how to map this better...
 // maybe these are just more env variables?
@@ -24,7 +29,7 @@ const parser = new Parser();
 parser.setCommand('gotd', '#gotd - get a round robin GotD', commandRandom);
 parser.setCommand('whoami', '#whoami - generate backstory', commandWhoami);
 parser.setCommand('dnd', '#dnd <term> - query compendium', commandDnd);
-// parser.setCommand('monster', '#monster    - random dnd5e monster', () => {});
+parser.setCommand('monster', '#monster - random dnd5e monster', commandMonster);
 parser.setCommand('help', '#help - show this message', botId => {
   const helpText = `Available commands are:\n\`\`\`\n${parser.formatCommands()}\`\`\``;
   return Promise.resolve({
