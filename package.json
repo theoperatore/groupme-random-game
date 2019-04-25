@@ -9,7 +9,7 @@
   "scripts": {
     "build": "scripts/build.sh",
     "start": "forever -d -a -o out.log -e err.log start server.js",
-    "stop": "forever stop build/server.js",
+    "stop": "forever stop server.js",
     "dev": "ts-node src/server.ts",
     "test": "jest",
     "deploy": "scripts/build-deploy.sh"
