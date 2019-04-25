@@ -3,13 +3,16 @@ import { platforms, Platform } from './giantBombPlatform-corpus';
 import { request, CommandError } from '../../utils';
 
 function createRoundRobin<T>(allItems: T[]): () => T {
-  let cache = [...allItems];
+  let cacheIndex = 0;
   return () => {
-    if (cache.length === 0) {
-      cache = [...allItems];
+    const item = { ...allItems[cacheIndex] };
+    cacheIndex += 1;
+
+    if (cacheIndex >= allItems.length) {
+      cacheIndex = 0;
     }
 
-    return cache.pop()!;
+    return item;
   };
 }
 
