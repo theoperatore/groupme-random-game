@@ -7,11 +7,12 @@
   "author": "Alex Petersen <theoperatore@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
-    "start": "forever -d -a -o out.log -e err.log start build/server.js",
+    "build": "scripts/build.sh",
+    "start": "forever -d -a -o out.log -e err.log start server.js",
     "stop": "forever stop build/server.js",
     "dev": "ts-node src/server.ts",
-    "test": "jest"
+    "test": "jest",
+    "deploy": "scripts/build-deploy.sh"
   },
   "husky": {
     "hooks": {
@@ -60,6 +61,6 @@
     "pretty-quick": "^1.10.0",
     "ts-jest": "^24.0.2",
     "ts-node": "^8.1.0",
-    "typescript": "^3.4.4"
+    "typescript": "^3.4.5"
   }
 }
