@@ -1,3 +1,5 @@
+# NOTICE! THIS PROJECT IS ARCHIVED AND SHOULD NOT BE USED. SEE [Andrew-Bot]().
+
 ### Groupme command bot
 
 A small server meant to handle webhooks for the [GroupMe chat service](https://web.groupme.com). This bot server responds to all incoming messages.
